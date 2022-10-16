@@ -9439,7 +9439,7 @@ blockquote {
 
 .solution-cms-2-item-2:first-child,
 .solution-cms-2-item-2:last-child {
-    background-color: #02C879;
+    background-color: #696969;
     color: #fff
 }
 
@@ -9495,7 +9495,7 @@ blockquote {
 }
 
 .button-3:hover {
-    background-color: #053eca
+    background-color: #02C879
 }
 
 .solution-cms-3-desciption {
@@ -9588,7 +9588,7 @@ blockquote {
 }
 
 .chessboard-2.is-10-opacity {
-    background-color: rgba(160, 188, 255, .1)
+    background-color: rgba(2 200 121)
 }
 
 .chessboard-2.is-borderless {

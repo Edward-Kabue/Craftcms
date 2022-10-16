@@ -86,15 +86,16 @@
         <div class="container">
             <div class="subfooter-inner">
                 <div id="w-node-_8137663d-4316-5de2-dc0c-31323dc8a383-561c8b57" class="subfooter-column"><a href="/"
-                        aria-current="page" class="subfooter-brand w-inline-block w--current"><img
-                            src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6252f05e1b9e1160a4478ae6_holiday_village_white_24dp.svg"
-                            loading="lazy" alt="" class="footer-logo-image" />
-                        <p class="brand-name">Silber</p>
-                        <div class="brand-divider"></div>
-                        <p class="brand-slogan-footer">Construction<br />template</p>
+                        aria-current="page" class="subfooter-brand w-inline-block w--current">
+                        {% set logo = header.logo.one() %}
+								{% if logo %}
+								<img src="{{ logo.url }}" loading="lazy" alt="logo" class="footer-logo-image">
+								
+								{% endif %}
+                       
                     </a></div>
                 <div id="w-node-_8137663d-4316-5de2-dc0c-31323dc8a38d-561c8b57" class="subfooter-button-outer-1"><a
-                        href="https://webflow.com/" target="_blank" class="powered-by-webflow-link w-inline-block">
+                        href="https://dimetechgroup.com" target="_blank" class="powered-by-webflow-link w-inline-block">
                         <p class="webflow-text">Powered by Dimetech group</p>
                     </a></div>
 
