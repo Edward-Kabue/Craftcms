@@ -1,0 +1,22 @@
+dateModified: 1665910441
+email:
+  fromEmail: ekabue0@gmail.com
+  fromName: 'http://site.test'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    3ce55da4-e133-40f4-9411-b4975f715a25: 'http://site.test'
+    95fb19d8-e7fb-43bb-8322-0eda144557a3: 'http://site.test'
+    7363904e-a5d1-4ef0-b5cf-ad598c922a68: Common
+system:
+  edition: solo
+  live: true
+  name: 'http://site.test'
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
