@@ -1,7 +1,7 @@
 <!DOCTYPE html><!-- This site was created in Webflow. https://www.webflow.com -->
 <!-- Last Published: Thu Aug 18 2022 10:09:58 GMT+0000 (Coordinated Universal Time) -->
 <html data-wf-page="625295532800cf7ed68d3dd3" data-wf-site="625295532800cfe2dd8d3dd2">
-
+{% set logo = entry.clientLogos.one()%}
 <head>
     <meta charset="utf-8" />
     <title>Site Consult</title>
@@ -89,9 +89,8 @@
                     <div class="container">
                         <div class="hero-2-flex">
                             <div class="hero-2-content">
-                                <p class="hero-top-title">Contruction</p>
-                                <h1 class="heading is-hero-2-title-1"><span class="opacity-70">We provide a wide array
-                                        of services</span> for improving or renovating properties</h1>
+                                <p class="hero-top-title">{{entry.heroSubtitle}}</p>
+                                <h1 class="heading is-hero-2-title-1"><span class="opacity-70">{{ entry.heroTitle}}</h1>
                             </div>
                         </div>
 
@@ -161,10 +160,7 @@
                             <div id="w-node-b5922f5a-0b88-2202-ca2a-2313e26f7f1f-d68d3dd3" class="content-block-5">
                                 <p id="w-node-a51d6f26-c4b1-3e87-97e3-18981062399c-d68d3dd3"
                                     data-w-id="a51d6f26-c4b1-3e87-97e3-18981062399c" style="opacity:0"
-                                    class="content-text-1">Our
-                                    company was founded on the principle of partnership where
-                                    we aim to work with our clients to provide a wide array of solutions for improving
-                                    or maintaining their properties.</p>
+                                    class="content-text-1">{{entry.aboutText}}</p>
                                 <div class="buttons-wrap">
                                     <div class="button-overlap-4"><a href="/company-1"
                                             class="main-button w-inline-block">
@@ -802,9 +798,10 @@
                         <div class="brands w-dyn-list">
                             <div data-w-id="6962c5e0-33b2-495b-d0fa-c872f005e478" style="opacity:0" role="list"
                                 class="brands-grid w-dyn-items">
+                                {%for logo in logos %}
                                 <div role="listitem" class="brand-item w-dyn-item"><a href="/brand/alley"
                                         class="brand-link-block w-inline-block"><img
-                                            src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/6268019e7488f56b714e8486_alley-logo-curves.svg"
+                                            src="{logo.url}"
                                             loading="lazy" alt="Alley" class="brands-logo" /></a>
                                     <div class="corner-lines">
                                         <div class="corner-line-1"></div>
@@ -817,7 +814,8 @@
                                         <div class="corner-line-8"></div>
                                     </div>
                                 </div>
-                                <div role="listitem" class="brand-item w-dyn-item"><a href="/brand/loog"
+                                {% endfor %}
+                                {# <div role="listitem" class="brand-item w-dyn-item"><a href="/brand/loog"
                                         class="brand-link-block w-inline-block"><img
                                             src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/62680194b94f7bab36aead80_loog-logo-curves.svg"
                                             loading="lazy" alt="Loog" class="brands-logo" /></a>
@@ -921,7 +919,7 @@
                                         <div class="corner-line-7"></div>
                                         <div class="corner-line-8"></div>
                                     </div>
-                                </div>
+                                </div> #}
                             </div>
                         </div>
                         <div class="w-layout-grid brands-content-grid">

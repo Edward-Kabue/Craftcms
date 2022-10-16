@@ -4,5 +4,5 @@ hasUrls: true
 language: en-US
 name: 'http://site.test'
 primary: true
-siteGroup: 3ce55da4-e133-40f4-9411-b4975f715a25
+siteGroup: 3ce55da4-e133-40f4-9411-b4975f715a25 # http://site.test
 sortOrder: 1

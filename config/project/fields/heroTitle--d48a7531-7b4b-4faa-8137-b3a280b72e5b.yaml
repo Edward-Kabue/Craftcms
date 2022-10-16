@@ -1,0 +1,19 @@
+columnSuffix: yygttscp
+contentColumnType: text
+fieldGroup: 6dd1fbd2-7a00-4dd0-869f-c678899cf8ee # Home
+handle: heroTitle
+instructions: null
+name: 'Hero Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
