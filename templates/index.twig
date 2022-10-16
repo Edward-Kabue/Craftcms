@@ -1,7 +1,7 @@
 <!DOCTYPE html><!-- This site was created in Webflow. https://www.webflow.com -->
 <!-- Last Published: Thu Aug 18 2022 10:09:58 GMT+0000 (Coordinated Universal Time) -->
 <html data-wf-page="625295532800cf7ed68d3dd3" data-wf-site="625295532800cfe2dd8d3dd2">
-{% set logo = entry.clientLogos.one()%}
+
 <head>
     <meta charset="utf-8" />
     <title>Site Consult</title>
@@ -272,22 +272,21 @@
                         <section class="section wf-section">
                             <div class="solution-cms-2 w-dyn-list">
                                 <div role="list" class="solution-cms-2-list w-dyn-items">
+                                    {% for service in entry.services.all() %}
+                                    {% set photo = service.serviceImage.one() %}
                                     <div role="listitem" class="solution-cms-2-item-2 w-dyn-item">
                                         <div class="solution-cms-2-content">
-                                            <p data-w-id="e6058060-069d-7f12-7ef0-6b7910081202"
-                                                class="solution-cms-2-title">
-                                                Renovation</p>
+                                            <p data-w-id="e6058060-069d-7f12-7ef0-6b7910081202" class="solution-cms-2-title">
+                                                {{service.serviceTitle}}
+                                             </p>
                                             <p data-w-id="e6058060-069d-7f12-7ef0-6b7910081203"
-                                                class="solution-cms-3-desciption">We
-                                                offer
-                                                various services like painting
-                                                and decorating, carpentry, and plumbing.</p>
+                                                class="solution-cms-3-desciption">{{service.serviceDescription}}</p>
                                             <div class="moving-button-trigger">
-                                                <a href="/services-1" class="main-button w-inline-block">
+                                                <a href="{{service.serviceUrl}}" class="main-button w-inline-block">
                                                     <div class="button-inner">
                                                         <p class="button-title">Read More</p>
                                                         <img src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6252f1730653975c82d4a73c_east_white_24dp.svg"
-                                                            loading="lazy" alt="" class="button-icon" />
+                                                            loading="lazy" alt="read_more" class="button-icon" />
                                                     </div>
                                                 </a>
                                             </div>
@@ -298,10 +297,10 @@
                                             <div class="_3d-block">
                                                 <div class="image-animation-trigger _3d-for-image">
                                                     <div class="animation-color-bg"></div><img
-                                                        src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b31cc301b83c294ca9cf_pexels-max-vakhtbovych-6958122.jpg"
-                                                        loading="lazy" alt="Renovation"
+                                                        src="{{photo.url}}"
+                                                        loading="lazy" alt="{{service.serviceTitle}}"
                                                         sizes="(max-width: 479px) 78vw, (max-width: 767px) 60vw, (max-width: 991px) 28vw, 31vw"
-                                                        srcset="https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b31cc301b83c294ca9cf_pexels-max-vakhtbovych-6958122-p-500.jpeg 500w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b31cc301b83c294ca9cf_pexels-max-vakhtbovych-6958122-p-800.jpeg 800w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b31cc301b83c294ca9cf_pexels-max-vakhtbovych-6958122-p-1080.jpeg 1080w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b31cc301b83c294ca9cf_pexels-max-vakhtbovych-6958122-p-1600.jpeg 1600w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b31cc301b83c294ca9cf_pexels-max-vakhtbovych-6958122.jpg 1920w"
+                                                        srcset="{{photo.url}}"
                                                         class="cover-image" />
                                                 </div>
                                             </div>
@@ -352,158 +351,7 @@
                                             <div class="chessboard-2"></div>
                                         </div>
                                     </div>
-                                    <div role="listitem" class="solution-cms-2-item-2 w-dyn-item">
-                                        <div class="solution-cms-2-content">
-                                            <p data-w-id="e6058060-069d-7f12-7ef0-6b7910081202"
-                                                class="solution-cms-2-title">
-                                                Design</p>
-                                            <p data-w-id="e6058060-069d-7f12-7ef0-6b7910081203"
-                                                class="solution-cms-3-desciption">
-                                                We pride
-                                                ourselves on creating a beautiful
-                                                interior environment for our clients.</p><a
-                                                data-w-id="e6058060-069d-7f12-7ef0-6b7910081204" href="/solution/design"
-                                                class="button-3 w-inline-block">
-                                                <p>Solution</p><img
-                                                    src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6252f1730653975c82d4a73c_east_white_24dp.svg"
-                                                    loading="lazy" alt="" class="button-icon" />
-                                            </a>
-                                        </div>
-                                        <div id="w-node-e6058060-069d-7f12-7ef0-6b7910081208-2e158690"
-                                            class="solution-cms-2-image">
-                                            <div class="_3d-block">
-                                                <div class="image-animation-trigger _3d-for-image">
-                                                    <div class="animation-color-bg"></div><img
-                                                        src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b30ff5470c67396fded0_pexels-max-vakhtbovych-6758788.jpg"
-                                                        loading="lazy" alt="Design"
-                                                        sizes="(max-width: 479px) 78vw, (max-width: 767px) 60vw, (max-width: 991px) 28vw, 31vw"
-                                                        srcset="https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b30ff5470c67396fded0_pexels-max-vakhtbovych-6758788-p-500.jpeg 500w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b30ff5470c67396fded0_pexels-max-vakhtbovych-6758788-p-800.jpeg 800w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b30ff5470c67396fded0_pexels-max-vakhtbovych-6758788-p-1080.jpeg 1080w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b30ff5470c67396fded0_pexels-max-vakhtbovych-6758788-p-1600.jpeg 1600w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b30ff5470c67396fded0_pexels-max-vakhtbovych-6758788.jpg 1920w"
-                                                        class="cover-image" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div data-w-id="e6058060-069d-7f12-7ef0-6b791008120d"
-                                            class="w-layout-grid chessboard-for-solution">
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 in-mob"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-10-opacity phone-hide"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-10-opacity"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-10-opacity phone-hide"></div>
-                                            <div class="chessboard-2"></div>
-                                            <div class="chessboard-2 is-10-opacity"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless phone-border"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2"></div>
-                                            <div class="chessboard-2 is-10-opacity"></div>
-                                            <div class="chessboard-2"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-10-opacity"></div>
-                                            <div class="chessboard-2"></div>
-                                            <div class="chessboard-2 is-10-opacity"></div>
-                                            <div class="chessboard-2 is-borderless phone-visible"></div>
-                                            <div class="chessboard-2 is-borderless phone-visible"></div>
-                                            <div class="chessboard-2 is-borderless phone-border"></div>
-                                            <div class="chessboard-2"></div>
-                                            <div class="chessboard-2 is-10-opacity"></div>
-                                            <div class="chessboard-2"></div>
-                                            <div class="chessboard-2"></div>
-                                            <div class="chessboard-2 is-borderless phone-border"></div>
-                                            <div class="chessboard-2 is-borderless phone-border"></div>
-                                            <div class="chessboard-2 is-10-opacity"></div>
-                                            <div class="chessboard-2 is-borderless phone-border"></div>
-                                            <div class="chessboard-2 is-borderless phone-border"></div>
-                                            <div class="chessboard-2 is-10-opacity"></div>
-                                            <div class="chessboard-2"></div>
-                                        </div>
-                                    </div>
-                                    <div role="listitem" class="solution-cms-2-item-2 w-dyn-item">
-                                        <div class="solution-cms-2-content">
-                                            <p data-w-id="e6058060-069d-7f12-7ef0-6b7910081202"
-                                                class="solution-cms-2-title">
-                                                Exterior</p>
-                                            <p data-w-id="e6058060-069d-7f12-7ef0-6b7910081203"
-                                                class="solution-cms-3-desciption">
-                                                We are ready
-                                                to help you with all kinds of
-                                                exterior conversions and decorations.</p><a
-                                                data-w-id="e6058060-069d-7f12-7ef0-6b7910081204"
-                                                href="/solution/exterior" class="button-3 w-inline-block">
-                                                <p>Solution</p><img
-                                                    src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6252f1730653975c82d4a73c_east_white_24dp.svg"
-                                                    loading="lazy" alt="" class="button-icon" />
-                                            </a>
-                                        </div>
-                                        <div id="w-node-e6058060-069d-7f12-7ef0-6b7910081208-2e158690"
-                                            class="solution-cms-2-image">
-                                            <div class="_3d-block">
-                                                <div class="image-animation-trigger _3d-for-image">
-                                                    <div class="animation-color-bg"></div><img
-                                                        src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b7bcf6b3861084149c6b_pexels-max-vakhtbovych-8082313.jpg"
-                                                        loading="lazy" alt="Exterior"
-                                                        sizes="(max-width: 479px) 78vw, (max-width: 767px) 60vw, (max-width: 991px) 28vw, 31vw"
-                                                        srcset="https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b7bcf6b3861084149c6b_pexels-max-vakhtbovych-8082313-p-500.jpeg 500w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b7bcf6b3861084149c6b_pexels-max-vakhtbovych-8082313-p-800.jpeg 800w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b7bcf6b3861084149c6b_pexels-max-vakhtbovych-8082313-p-1080.jpeg 1080w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b7bcf6b3861084149c6b_pexels-max-vakhtbovych-8082313-p-1600.jpeg 1600w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255b7bcf6b3861084149c6b_pexels-max-vakhtbovych-8082313.jpg 1920w"
-                                                        class="cover-image" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div data-w-id="e6058060-069d-7f12-7ef0-6b791008120d"
-                                            class="w-layout-grid chessboard-for-solution">
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 in-mob"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-10-opacity phone-hide"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-10-opacity"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-10-opacity phone-hide"></div>
-                                            <div class="chessboard-2"></div>
-                                            <div class="chessboard-2 is-10-opacity"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless phone-border"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2"></div>
-                                            <div class="chessboard-2 is-10-opacity"></div>
-                                            <div class="chessboard-2"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-borderless"></div>
-                                            <div class="chessboard-2 is-10-opacity"></div>
-                                            <div class="chessboard-2"></div>
-                                            <div class="chessboard-2 is-10-opacity"></div>
-                                            <div class="chessboard-2 is-borderless phone-visible"></div>
-                                            <div class="chessboard-2 is-borderless phone-visible"></div>
-                                            <div class="chessboard-2 is-borderless phone-border"></div>
-                                            <div class="chessboard-2"></div>
-                                            <div class="chessboard-2 is-10-opacity"></div>
-                                            <div class="chessboard-2"></div>
-                                            <div class="chessboard-2"></div>
-                                            <div class="chessboard-2 is-borderless phone-border"></div>
-                                            <div class="chessboard-2 is-borderless phone-border"></div>
-                                            <div class="chessboard-2 is-10-opacity"></div>
-                                            <div class="chessboard-2 is-borderless phone-border"></div>
-                                            <div class="chessboard-2 is-borderless phone-border"></div>
-                                            <div class="chessboard-2 is-10-opacity"></div>
-                                            <div class="chessboard-2"></div>
-                                        </div>
-                                    </div>
+                                    {% endfor %}
                                 </div>
                             </div>
 
@@ -798,10 +646,9 @@
                         <div class="brands w-dyn-list">
                             <div data-w-id="6962c5e0-33b2-495b-d0fa-c872f005e478" style="opacity:0" role="list"
                                 class="brands-grid w-dyn-items">
-                                {%for logo in logos %}
                                 <div role="listitem" class="brand-item w-dyn-item"><a href="/brand/alley"
                                         class="brand-link-block w-inline-block"><img
-                                            src="{logo.url}"
+                                            src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/6268019e7488f56b714e8486_alley-logo-curves.svg"
                                             loading="lazy" alt="Alley" class="brands-logo" /></a>
                                     <div class="corner-lines">
                                         <div class="corner-line-1"></div>
@@ -814,8 +661,7 @@
                                         <div class="corner-line-8"></div>
                                     </div>
                                 </div>
-                                {% endfor %}
-                                {# <div role="listitem" class="brand-item w-dyn-item"><a href="/brand/loog"
+                               <div role="listitem" class="brand-item w-dyn-item"><a href="/brand/loog"
                                         class="brand-link-block w-inline-block"><img
                                             src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/62680194b94f7bab36aead80_loog-logo-curves.svg"
                                             loading="lazy" alt="Loog" class="brands-logo" /></a>
@@ -919,7 +765,7 @@
                                         <div class="corner-line-7"></div>
                                         <div class="corner-line-8"></div>
                                     </div>
-                                </div> #}
+                                </div> 
                             </div>
                         </div>
                         <div class="w-layout-grid brands-content-grid">

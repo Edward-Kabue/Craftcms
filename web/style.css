@@ -41,7 +41,7 @@ template {
 
 a {
     background-color: transparent;
-    color: #064dfa;
+    color: #02C879;
     text-decoration: none
 }
 
@@ -2310,7 +2310,7 @@ strong {
 blockquote {
     margin: 1.6em 0;
     padding: 1em 1em 1em 1.5em;
-    border-left: 5px solid #064dfa;
+    border-left: 5px solid #02C879;
     color: #0c389f;
     font-size: 1.3em;
     line-height: 1.5em
@@ -2639,7 +2639,7 @@ blockquote {
 .heading.is-project-cms-title {
     max-width: 11.5em;
     padding-left: .8em;
-    border-left: .1em solid #064dfa;
+    border-left: .1em solid #02C879;
     color: #fff;
     font-size: 6em;
     line-height: 1.5em;
@@ -2852,8 +2852,8 @@ blockquote {
     top: .1em;
     width: .6em;
     height: 100%;
-    border-right: 1px solid #064dfa;
-    border-left: 1px solid #064dfa;
+    border-right: 1px solid #02C879;
+    border-left: 1px solid #02C879;
     background-image: url("https://assets.website-files.com/625295532800cfe2dd8d3dd2/6253f3dcf69bc71dd60e553d_diagonal-lines-blue.svg");
     background-position: 0 0;
     background-size: .5em;
@@ -3210,7 +3210,7 @@ blockquote {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    background-color: #064dfa;
+    background-color: #02C879;
     color: #fff
 }
 
@@ -3590,7 +3590,7 @@ blockquote {
     display: none;
     width: 450%;
     height: 100%;
-    background-color: #064dfa;
+    background-color: #02C879;
     -webkit-transform: skew(-60deg, 0deg);
     -ms-transform: skew(-60deg, 0deg);
     transform: skew(-60deg, 0deg)
@@ -3646,9 +3646,9 @@ blockquote {
 .uppercase-title-border {
     padding-right: 2em;
     padding-left: 2em;
-    border-right: .5em solid #064dfa;
-    border-left: .5em solid #064dfa;
-    color: #064dfa;
+    border-right: .5em solid #02C879;
+    border-left: .5em solid #02C879;
+    color: #02C879;
     font-size: 1em;
     font-weight: 600;
     letter-spacing: .5em;
@@ -3691,7 +3691,7 @@ blockquote {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 3px;
-    background-color: #064dfa;
+    background-color: #02C879;
     font-size: 1em
 }
 
@@ -3801,7 +3801,7 @@ blockquote {
 }
 
 .service-link-1:hover {
-    background-color: #082e85
+    background-color: #696969
 }
 
 .content-block-5 {
@@ -3998,7 +3998,7 @@ blockquote {
 }
 
 .form-field:hover {
-    border-bottom-color: #0c389f
+    border-bottom-color: #696969
 }
 
 .form-field:focus {
@@ -4046,7 +4046,7 @@ blockquote {
     width: 100%;
     padding: 5em 3em;
     border: 1px solid #f1fff8;
-    background-color: #064dfa;
+    background-color: #02C879;
     color: #fff
 }
 
@@ -4219,7 +4219,7 @@ blockquote {
     right: 0;
     bottom: 0;
     z-index: 1;
-    border: 1px solid #064dfa;
+    border: 1px solid #02C879;
     background-color: #eef1fa;
     background-image: url("https://assets.website-files.com/625295532800cfe2dd8d3dd2/6253f3dcf69bc71dd60e553d_diagonal-lines-blue.svg");
     background-position: 50% 50%;
@@ -4381,7 +4381,7 @@ blockquote {
 }
 
 .moving-link-circle.is-blue-color {
-    border-color: #064dfa
+    border-color: #02C879
 }
 
 .menu-links-wrap {
@@ -4501,7 +4501,7 @@ blockquote {
     bottom: 0;
     z-index: 2;
     width: 3px;
-    background-color: #064dfa
+    background-color: #02C879
 }
 
 .projects-menu-list {
@@ -4801,7 +4801,7 @@ blockquote {
     bottom: 0;
     z-index: 2;
     display: none;
-    background-color: #064dfa
+    background-color: #02C879
 }
 
 .project-icon-for-hover {
@@ -4922,8 +4922,8 @@ blockquote {
 }
 
 .brand-link-block:hover {
-    border-color: rgba(6, 77, 250, .13);
-    background-color: rgba(6, 77, 250, .05)
+    border-color: #696969;
+    background-color: #696969
 }
 
 .brands-logo {
@@ -5348,7 +5348,7 @@ blockquote {
     right: 0;
     bottom: 0;
     z-index: 1;
-    border: 1px solid #064dfa;
+    border: 1px solid #02C879;
     background-image: url("https://assets.website-files.com/625295532800cfe2dd8d3dd2/6253f3dcf69bc71dd60e553d_diagonal-lines-blue.svg");
     background-position: 50% 50%;
     background-size: 1em;
@@ -5489,7 +5489,7 @@ blockquote {
 }
 
 .footer-small-link:hover {
-    border-left-color: #064dfa;
+    border-left-color: #02C879;
     color: #fff
 }
 
@@ -5521,7 +5521,7 @@ blockquote {
 }
 
 .socials-in-footer:hover {
-    background-color: #064dfa
+    background-color: #02C879
 }
 
 .footer-social-list {
@@ -5598,7 +5598,7 @@ blockquote {
     left: 0;
     width: 1em;
     height: 100%;
-    border: .1em solid #064dfa;
+    border: .1em solid #02C879;
     background-image: url("https://assets.website-files.com/625295532800cfe2dd8d3dd2/6253f3dcf69bc71dd60e553d_diagonal-lines-blue.svg");
     background-position: 0 0;
     background-size: .5em;
@@ -5618,7 +5618,7 @@ blockquote {
     bottom: 0;
     display: none;
     width: 1em;
-    background-color: #064dfa
+    background-color: #02C879
 }
 
 .footer-column-3 {
@@ -5685,8 +5685,8 @@ blockquote {
 }
 
 .footer-address-button:hover {
-    border-color: #243b75;
-    background-color: rgba(6, 77, 250, .15)
+    border-color: #696969;
+    background-color: #02C879;
 }
 
 .footer-address {
@@ -5917,14 +5917,14 @@ blockquote {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    background-color: #064dfa;
+    background-color: #02C879;
     -webkit-transition: background-color .2s;
     transition: background-color .2s;
     color: #fff
 }
 
 .solution-link-block-menu:hover {
-    background-color: #0c389f
+    background-color: #02C879
 }
 
 .service-cms-link-1 {
@@ -5934,7 +5934,7 @@ blockquote {
 }
 
 .service-cms-link-1:hover {
-    color: #064dfa
+    color: #02C879
 }
 
 .contact-menu-title {
@@ -6169,7 +6169,7 @@ blockquote {
     grid-template-rows: auto;
     border-style: solid;
     border-width: 0 1px 1px;
-    border-color: transparent #064dfa #064dfa
+    border-color: transparent #02C879 #02C879
 }
 
 .content-grid-2-block {
@@ -6205,8 +6205,8 @@ blockquote {
 }
 
 .content-grid-2-block.in-middle {
-    border-right: 1px solid #064dfa;
-    border-left: 1px solid #064dfa
+    border-right: 1px solid #02C879;
+    border-left: 1px solid #02C879
 }
 
 .content-grid-icon-2 {
@@ -6295,7 +6295,7 @@ blockquote {
     left: 0;
     width: 100vw;
     height: .6em;
-    border: 1px solid #064dfa;
+    border: 1px solid #02C879;
     background-image: url("https://assets.website-files.com/625295532800cfe2dd8d3dd2/6253f3dcf69bc71dd60e553d_diagonal-lines-blue.svg");
     background-position: 0 0;
     background-size: .5em;
@@ -6361,7 +6361,7 @@ blockquote {
     background-repeat: no-repeat;
     -webkit-transition: border-color .2s, color .2s, padding .5s cubic-bezier(.075, .82, .165, 1);
     transition: border-color .2s, color .2s, padding .5s cubic-bezier(.075, .82, .165, 1);
-    color: #064dfa;
+    color: #02C879;
     font-size: 1.2em;
     line-height: 1.2em;
     font-weight: 500
@@ -6369,13 +6369,13 @@ blockquote {
 
 .text-link:hover {
     padding-right: 2.1em;
-    border-bottom-color: #064dfa;
-    color: #0c389f
+    border-bottom-color: #02C879;
+    color: #696969
 }
 
 .text-link:focus {
     padding-right: 2em;
-    border-color: transparent transparent #064dfa;
+    border-color: transparent transparent #02C879;
     border-top-style: solid;
     border-top-width: 0;
     border-right-style: solid;
@@ -6692,7 +6692,7 @@ blockquote {
     flex: 0 0 auto;
     border: 1px solid rgba(202, 217, 255, .33);
     border-radius: 2.5em;
-    background-color: rgba(6, 77, 250, .7);
+    background-color: #02C879;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     -webkit-transition: background-color .2s;
@@ -6701,14 +6701,14 @@ blockquote {
 }
 
 .aside-contact-button:hover {
-    background-color: #064dfa
+    background-color: #02C879
 }
 
 .hero-top-title {
     padding-right: 2em;
     padding-left: 2em;
-    border-right: .3em solid #064dfa;
-    border-left: .3em solid #064dfa;
+    border-right: .3em solid #02C879;
+    border-left: .3em solid #02C879;
     color: #fff;
     font-size: 1em;
     font-weight: 500;
@@ -6768,7 +6768,7 @@ blockquote {
 }
 
 .content-grid-block-4.is-button:hover {
-    background-color: #1b243a;
+    background-color: #02C879;
     color: #fff
 }
 
@@ -7272,15 +7272,15 @@ blockquote {
     background-repeat: no-repeat;
     -webkit-transition: color .2s, background-position .6s cubic-bezier(.075, .82, .165, 1), border-color .2s, padding .6s cubic-bezier(.075, .82, .165, 1);
     transition: color .2s, background-position .6s cubic-bezier(.075, .82, .165, 1), border-color .2s, padding .6s cubic-bezier(.075, .82, .165, 1);
-    color: #064dfa
+    color: #02C879
 }
 
 .service-cms-link:hover {
     padding-right: 2em;
     padding-left: 3em;
-    border-bottom-color: #064dfa;
+    border-bottom-color: #02C879;
     background-position: 0 50%;
-    color: #1b243a
+    color: #696969
 }
 
 .service-cms-title {
@@ -7430,7 +7430,7 @@ blockquote {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    border-left: .5em solid #064dfa
+    border-left: .5em solid #02C879
 }
 
 .hero-content.in-socials {
@@ -7685,7 +7685,7 @@ blockquote {
     -ms-flex-item-align: stretch;
     align-self: stretch;
     border-left: 1px solid rgba(161, 188, 255, .33);
-    background-color: #064dfa;
+    background-color: #02C879;
     -webkit-transition: background-color .2s;
     transition: background-color .2s;
     color: #fff;
@@ -7853,7 +7853,7 @@ blockquote {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    border-left: .5em solid #064dfa
+    border-left: .5em solid #02C879
 }
 
 .large-paragraph-1 {
@@ -7962,7 +7962,7 @@ blockquote {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #064dfa;
+    background-color: #02C879;
     -webkit-transition: letter-spacing .8s cubic-bezier(.075, .82, .165, 1);
     transition: letter-spacing .8s cubic-bezier(.075, .82, .165, 1);
     letter-spacing: .5em
@@ -8177,7 +8177,7 @@ blockquote {
 .uppercase-title-3 {
     margin-top: .5em;
     margin-right: 5em;
-    color: #064dfa;
+    color: #02C879;
     font-size: .9em;
     font-weight: 600;
     letter-spacing: .5em;
@@ -8219,7 +8219,7 @@ blockquote {
     z-index: 2;
     width: 100%;
     height: 2px;
-    background-color: #064dfa
+    background-color: #02C879
 }
 
 .border-line-top.in-grid {
@@ -8355,7 +8355,7 @@ blockquote {
 
 .solution-cms-2-item:first-child,
 .solution-cms-2-item:last-child {
-    background-color: #064dfa;
+    background-color: #02C879;
     color: #fff
 }
 
@@ -8399,7 +8399,7 @@ blockquote {
     -ms-flex-align: center;
     align-items: center;
     border: 1px solid #5284ff;
-    background-color: #064dfa;
+    background-color: #02C879;
     -webkit-transition: background-color .2s;
     transition: background-color .2s;
     color: #fff
@@ -8486,7 +8486,7 @@ blockquote {
     margin-top: 1.1em;
     padding: 1em;
     border-radius: 3px;
-    background-color: #064dfa;
+    background-color: #02C879;
     background-image: url("https://assets.website-files.com/625295532800cfe2dd8d3dd2/6252f1730653975c82d4a73c_east_white_24dp.svg");
     background-position: 90% 50%;
     background-size: 1.1em;
@@ -8500,12 +8500,12 @@ blockquote {
 }
 
 .submit-button-2:hover {
-    background-color: #053eca;
+    background-color: #02C879;
     background-position: 93% 50%
 }
 
 .submit-button-2:focus {
-    box-shadow: 0 1px 40px 0 #064dfa;
+    box-shadow: 0 1px 40px 0 #02C879;
     outline-offset: 0px;
     outline: transparent 0
 }
@@ -8775,7 +8775,7 @@ blockquote {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    border-left: .5em solid #064dfa
+    border-left: .5em solid #02C879
 }
 
 .form-title-1 {
@@ -9003,7 +9003,7 @@ blockquote {
     background-color: transparent;
     -webkit-transition: border-color .3s;
     transition: border-color .3s;
-    color: #064dfa;
+    color: #02C879;
     font-size: .95em;
     line-height: 1.1em;
     font-weight: 500;
@@ -9013,7 +9013,7 @@ blockquote {
 }
 
 .tab-link:hover {
-    border-left-color: #064dfa
+    border-left-color: #02C879
 }
 
 .tab-link.w--current {
@@ -9237,7 +9237,7 @@ blockquote {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #064dfa;
+    color: #02C879;
     white-space: normal
 }
 
@@ -9365,7 +9365,7 @@ blockquote {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #064dfa;
+    background-color: #02C879;
     -webkit-transition: letter-spacing .8s cubic-bezier(.075, .82, .165, 1);
     transition: letter-spacing .8s cubic-bezier(.075, .82, .165, 1);
     letter-spacing: .5em
@@ -9439,7 +9439,7 @@ blockquote {
 
 .solution-cms-2-item-2:first-child,
 .solution-cms-2-item-2:last-child {
-    background-color: #064dfa;
+    background-color: #02C879;
     color: #fff
 }
 
@@ -9488,7 +9488,7 @@ blockquote {
     -ms-flex-align: center;
     align-items: center;
     border: 1px solid #5284ff;
-    background-color: #064dfa;
+    background-color: #02C879;
     -webkit-transition: background-color .2s;
     transition: background-color .2s;
     color: #fff
@@ -9782,7 +9782,7 @@ blockquote {
 }
 
 .cms-content-link-block:hover {
-    border-left-color: #064dfa
+    border-left-color: #02C879
 }
 
 .cms-content-link-block.w--current {
@@ -9845,7 +9845,7 @@ blockquote {
 .rich-text a {
     -webkit-transition: color .2s;
     transition: color .2s;
-    color: #064dfa
+    color: #02C879
 }
 
 .rich-text a:hover {
@@ -9911,7 +9911,7 @@ blockquote {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    border-left: .5em solid #064dfa
+    border-left: .5em solid #02C879
 }
 
 .regular-title-block.in-terms,
@@ -10512,7 +10512,7 @@ blockquote {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #064dfa;
+    background-color: #02C879;
     -webkit-transition: background-color .2s;
     transition: background-color .2s;
     color: #fff;
@@ -11750,7 +11750,7 @@ blockquote {
     height: 5em;
     margin-right: 4em;
     margin-left: 4em;
-    background-color: #064dfa
+    background-color: #02C879
 }
 
 .preloader-content {
@@ -11878,7 +11878,7 @@ blockquote {
 .color-define-3 {
     width: 100%;
     height: 5em;
-    background-color: #064dfa
+    background-color: #02C879
 }
 
 .color-define-3.is-1st {
@@ -12277,11 +12277,11 @@ blockquote {
 
     .footer-small-link {
         padding-left: 3.6em;
-        border-left-color: #064dfa
+        border-left-color: #02C879
     }
 
     .socials-in-footer {
-        background-color: #064dfa
+        background-color: #02C879
     }
 
     .footer-link-title {
@@ -13588,7 +13588,7 @@ blockquote {
     .content-grid-2-block.in-middle {
         border-style: solid;
         border-width: 1px 0;
-        border-color: #064dfa transparent
+        border-color: #02C879 transparent
     }
 
     .custom-list-2 {
