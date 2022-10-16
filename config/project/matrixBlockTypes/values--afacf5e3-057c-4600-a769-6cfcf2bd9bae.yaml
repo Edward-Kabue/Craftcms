@@ -1,0 +1,78 @@
+field: 7f1d2261-d055-46c9-8819-49550e0061b2 # Values
+fieldLayouts:
+  0fc11000-5e38-422c-a887-2acae18ccea8:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 352b53a7-2b29-4e88-b288-bcc5b7aa0a69 # value Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0347bd77-1ef5-4bf7-8b13-1667503b3b56
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c9cd0c14-9d24-489c-9509-8a65e38773ea # value Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b2730e83-92fa-4219-96ef-8eb0b4ea4d4f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: eeae1c62-9bf1-4e21-a036-a756ab647494
+        userCondition: null
+fields:
+  352b53a7-2b29-4e88-b288-bcc5b7aa0a69: # value Title
+    columnSuffix: fayhciue
+    contentColumnType: text
+    fieldGroup: null
+    handle: valueTitle
+    instructions: null
+    name: 'value Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  c9cd0c14-9d24-489c-9509-8a65e38773ea: # value Text
+    columnSuffix: xqqxwjiv
+    contentColumnType: text
+    fieldGroup: null
+    handle: valueText
+    instructions: null
+    name: 'value Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: values
+name: values
+sortOrder: 1

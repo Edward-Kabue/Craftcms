@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: aboutUs
+name: 'About us'
+propagationMethod: all
+siteSettings:
+  95fb19d8-e7fb-43bb-8322-0eda144557a3: # http://site.test
+    enabledByDefault: true
+    hasUrls: true
+    template: about.twig
+    uriFormat: about_us
+type: single

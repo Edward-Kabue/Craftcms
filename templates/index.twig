@@ -3,10 +3,11 @@
 <body>
     <div class="preloader">
         <div class="preloader-inner">
-            <div class="preloader-brand"><img
-                    src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6252f05e1b9e1160a4478ae6_holiday_village_white_24dp.svg"
-                    loading="lazy" alt="" class="preloader-logo" />
-                <p class="preloader-brand-name">Silber</p>
+            <div class="preloader-brand">
+                {% set logo = header.logo.one() %}
+                    {% if logo %}
+                        <img src="{{ logo.url }}" loading="lazy" alt="" class="preloader-logo" alt="logo" />
+                    {% endif %}
             </div>
             <div class="preloader-line"></div>
             <div class="preloader-content">

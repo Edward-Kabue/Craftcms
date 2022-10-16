@@ -1,0 +1,19 @@
+columnSuffix: pygkbqre
+contentColumnType: text
+fieldGroup: 49c08815-608a-4b26-a9ab-dda7724f7b62 # AboutUs 
+handle: visionText
+instructions: null
+name: 'vision Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

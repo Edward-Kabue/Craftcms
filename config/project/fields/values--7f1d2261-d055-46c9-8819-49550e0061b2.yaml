@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 49c08815-608a-4b26-a9ab-dda7724f7b62 # AboutUs 
+handle: values
+instructions: null
+name: Values
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_values}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

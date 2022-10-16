@@ -3,21 +3,20 @@
     <div class="nav-main-row-grid">
         <div id="w-node-e4da4c37-ee58-167a-cbd7-451e68993a19-68993a17" class="nav-column-1-grid"><a href="/"
                 class="brand-grid w-nav-brand">
-                <div class="brand-logo-block"><img
-                        src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6252f05e1b9e1160a4478ae6_holiday_village_white_24dp.svg"
-                        loading="lazy" alt="" class="logo-image" />
-                    <p class="brand-name">Silber</p>
+                <div class="brand-logo-block">{% set logo = header.logo.one() %}
+								{% if logo %}
+								<img src="{{ logo.url }}" loading="Lazy" alt="logo" >
+								
+								{% endif %}
+                    
                 </div>
-                <div class="brand-slogan-block">
-                    <div class="brand-divider-2"></div>
-                    <p class="brand-slogan">Construction<br />template</p>
-                </div>
+                
             </a></div>
         <nav role="navigation" id="w-node-e4da4c37-ee58-167a-cbd7-451e68993a25-68993a17"
             class="nav-menu-grid w-nav-menu">
-            <div data-hover="true" data-delay="400" class="dropdown-link w-dropdown">
+            {# <div data-hover="true" data-delay="400" class="dropdown-link w-dropdown">
                 <div class="nav-link is-dropdown w-dropdown-toggle">
-                    <p class="menu-link-title">Template</p>
+                    <p class="menu-link-title">Home</p>
                     <div class="dropdown-icon w-icon-dropdown-toggle"></div>
                 </div>
                 <nav class="dropdown-list w-dropdown-list">
@@ -221,7 +220,7 @@
             </div>
             <div data-hover="true" data-delay="400" class="dropdown-link w-dropdown">
                 <div class="nav-link is-dropdown w-dropdown-toggle">
-                    <p class="menu-link-title">Services</p>
+                    <p class="menu-link-title">About us</p>
                     <div class="dropdown-icon w-icon-dropdown-toggle"></div>
                 </div>
                 <nav class="dropdown-list w-dropdown-list">
@@ -440,11 +439,20 @@
                         </div>
                     </div>
                 </nav>
-            </div><a href="/company-1" class="nav-link w-inline-block">
-                <p class="menu-link-title">Company</p>
+            </div> #}
+            <a href="/" class="nav-link w-inline-block">
+                <p class="menu-link-title">Home</p>
             </a>
+            <a href="/about_us" class="nav-link w-inline-block">
+                <p class="menu-link-title">About Us</p>
+            </a>
+            <a href="/projects" class="nav-link w-inline-block">
+                <p class="menu-link-title">Projects</p>
+            </a>
+           
+
         </nav>
-        <div id="w-node-e4da4c37-ee58-167a-cbd7-451e68993abe-68993a17" class="menu-button-grid w-nav-button">
+        {# <div id="w-node-e4da4c37-ee58-167a-cbd7-451e68993abe-68993a17" class="menu-button-grid w-nav-button">
             <div class="menu-button-inner-grid">
                 <div class="nav-text-1">Menu</div>
                 <div class="dots-wrap-2">
@@ -453,10 +461,10 @@
                     <div class="menu-dot-2"></div>
                 </div>
             </div>
-        </div>
+        </div> #}
         <div id="w-node-e4da4c37-ee58-167a-cbd7-451e68993ac6-68993a17" class="nav-column-2-grid">
-            <div data-hover="true" data-delay="400" class="dropdown-link is-contanct-menu-grid w-dropdown">
-                <div class="nav-link-contact-grid w-dropdown-toggle">
+             <div data-hover="true" data-delay="400" class="dropdown-link is-contanct-menu-grid w-dropdown">
+                {# <div class="nav-link-contact-grid w-dropdown-toggle">
                     <div class="dots-wrap">
                         <div class="menu-dot"></div>
                         <div class="menu-dot in-middle"></div>
@@ -465,8 +473,8 @@
                     <div class="menu-desktop-title">Menu</div><img
                         src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6258131c718f7ca900c76c0b_question_answer_white_24dp.svg"
                         loading="lazy" alt="" class="menu-contact-icon" />
-                </div>
-                <nav class="dropdown-list is-contacts w-dropdown-list">
+                </div>  #}
+                {# <nav class="dropdown-list is-contacts w-dropdown-list">
                     <div class="container">
                         <div class="menu-contacts">
                             <div class="contact-menu-grid">
@@ -532,8 +540,8 @@
                             </div>
                         </div>
                     </div>
-                </nav>
-            </div><a href="/contact-1" class="nav-link-inquiry-grid w-inline-block">
+                </nav> #}
+            </div><a href="/contact" class="nav-link-inquiry-grid w-inline-block">
                 <p class="contact-menu-title">Contact</p><img
                     src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6252f1730653975c82d4a73c_east_white_24dp.svg"
                     loading="lazy" alt="" class="inquiry-icon" />

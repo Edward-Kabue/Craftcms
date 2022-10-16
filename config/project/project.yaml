@@ -1,4 +1,4 @@
-dateModified: 1665918527
+dateModified: 1665924178
 email:
   fromEmail: ekabue0@gmail.com
   fromName: 'http://site.test'
@@ -13,24 +13,35 @@ fs:
     url: $ASSET_BASE_URL
 meta:
   __names__:
+    0f4e6006-f9ac-48d4-8d53-38c4129b2112: 'AboutUs Text' # AboutUs Text
     1ca6bb03-6ebf-4068-921a-99f6dc44f1b5: Favicon # Favicon
-    2f193977-364b-4a61-939f-7ee677402ccd: Header # Favicon
+    2f193977-364b-4a61-939f-7ee677402ccd: Header # Header
     3ce55da4-e133-40f4-9411-b4975f715a25: 'http://site.test' # http://site.test
     5b812342-1f91-4d87-ac71-6f9e41447b2c: Service # Service
+    5e23d56a-b270-4cbc-bbe3-294b6b6be4ae: 'vision Text' # vision Text
     6dd1fbd2-7a00-4dd0-869f-c678899cf8ee: Home # Home
     6e48ed08-436c-4b76-9aee-0e482ae5922b: 'About Text' # About Text
+    7f1d2261-d055-46c9-8819-49550e0061b2: Values # Values
     8b9e95dd-744b-4cd8-9610-92c630a351b4: Logo # Logo
     36c348e3-80db-4e47-9d9f-b2f10f86b5b5: 'Service Description' # Service Description
     41e52a82-2f38-4879-950f-eb3b579cb861: 'Service Title' # Service Title
+    49c08815-608a-4b26-a9ab-dda7724f7b62: 'AboutUs ' # AboutUs 
     53f52c04-39c7-4620-98e1-1bd1caccecce: Services # Services
+    55fe5512-a3a3-4e74-bec2-1e266007fe59: 'about Hero' # about Hero
     68cb522e-e3b5-418c-b319-1920fe9caa89: Images # Images
     95fb19d8-e7fb-43bb-8322-0eda144557a3: 'http://site.test' # http://site.test
+    352b53a7-2b29-4e88-b288-bcc5b7aa0a69: 'value Title' # value Title
     7363904e-a5d1-4ef0-b5cf-ad598c922a68: Common # Common
     52139314-0d5f-4f6a-a942-c10055e7117f: 'Hero Subtitle' # Hero Subtitle
     a0056a32-c1d0-42e3-9b6c-f0ead87fd0df: 'Client Logos' # Client Logos
+    a1afe4ff-8bbf-4a85-9c3e-b8df5f31eda2: 'mission Text' # mission Text
     af80ae11-8e76-4870-b5f7-d5628a9a50b8: 'Service  Image' # Service  Image
+    afacf5e3-057c-4600-a769-6cfcf2bd9bae: values # values
     b016d7bd-22f7-4824-8938-936009def2d5: 'Service Url' # Service Url
+    ba810493-101f-4642-9440-9881c8055c29: 'About us' # About us
+    c9cd0c14-9d24-489c-9509-8a65e38773ea: 'value Text' # value Text
     d48a7531-7b4b-4faa-8137-b3a280b72e5b: 'Hero Title' # Hero Title
+    e8dadebe-05e0-49d0-a997-6f2f05241d98: 'About us' # About us
     e2044ab7-a88b-4511-8f76-7e96dcfa5f73: Home # Home
     ff55a44d-aa6b-4e33-baf3-f95fa52a45c0: Home # Home
 plugins:

@@ -1,0 +1,27 @@
+columnSuffix: vaixxvuq
+contentColumnType: text
+fieldGroup: 49c08815-608a-4b26-a9ab-dda7724f7b62 # AboutUs 
+handle: aboutusText
+instructions: null
+name: 'AboutUs Text'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

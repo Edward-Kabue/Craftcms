@@ -1,0 +1,97 @@
+fieldLayouts:
+  231e346c-5197-46bc-a299-3d86af70069b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 7077a053-f11a-4cdd-9dd4-9952bc9f2432
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 55fe5512-a3a3-4e74-bec2-1e266007fe59 # about Hero
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c03c33c9-a1a6-4ed1-946a-5f6e6aa6ea37
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a1afe4ff-8bbf-4a85-9c3e-b8df5f31eda2 # mission Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e9503589-5090-4d18-9e24-fd8d626b8c31
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5e23d56a-b270-4cbc-bbe3-294b6b6be4ae # vision Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 14cef05c-b846-4e2c-a72d-d429738ac31c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a3df1de5-2fbb-42ef-8226-3216056c90b1
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 7f1d2261-d055-46c9-8819-49550e0061b2 # Values
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5dde3091-020e-45c7-a983-d957d031c538
+            userCondition: null
+            warning: null
+            width: 100
+        name: values
+        uid: 37641d1d-a358-45b8-ba01-0237826db8aa
+        userCondition: null
+handle: aboutUs
+hasTitleField: false
+name: 'About us'
+section: ba810493-101f-4642-9440-9881c8055c29 # About us
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

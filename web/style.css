@@ -11713,8 +11713,8 @@ blockquote {
 }
 
 .preloader-logo {
-    width: 1em;
-    height: 1em;
+    width: 10em;
+    height: 10em;
     margin-right: .6em;
     font-size: 1.9em;
     -o-object-fit: contain;
