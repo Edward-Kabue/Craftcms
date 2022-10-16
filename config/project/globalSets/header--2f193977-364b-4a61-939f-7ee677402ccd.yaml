@@ -1,0 +1,36 @@
+fieldLayouts:
+  91e976a2-eaf7-47e8-8552-eb1a16d11a46:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 8b9e95dd-744b-4cd8-9610-92c630a351b4 # Logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fbdcbabd-dc3e-49c5-a54d-161aa4a89b8a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1ca6bb03-6ebf-4068-921a-99f6dc44f1b5 # Favicon
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7d353455-8b0f-463d-8793-78c830d92054
+            userCondition: null
+            warning: null
+            width: 100
+        name: content
+        uid: 219d3cb6-a36a-4cfd-8c9b-1155d68a2ece
+        userCondition: null
+handle: header
+name: Header
+sortOrder: 1

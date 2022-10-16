@@ -1,17 +1,21 @@
+<!DOCTYPE html><!-- This site was created in Webflow. https://www.webflow.com -->
+<!-- Last Published: Thu Aug 18 2022 10:09:58 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-page="625295532800cf7ed68d3dd3" data-wf-site="625295532800cfe2dd8d3dd2">
+
 <head>
-    <meta charset="utf-8" />
-    <title>Site Consult</title>
-    <meta content="Site Consult" property="og:title" />
-    <meta
-        content="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6268215325d0a3d07cd928db_silber-og-image.png"
-        property="og:image" />
-    <meta content="Home 2 | Construction &amp; Renovation Webflow Template" property="twitter:title" />
-    <meta
-        content="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6268215325d0a3d07cd928db_silber-og-image.png"
-        property="twitter:image" />
+  <title>{% if title is defined %}{{ title }} - {% endif %}{{ siteName }}</title>
+        <!-- META -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--::::: FABICON ICON :::::::-->
+       {% set favicon = header.favicon.one() %}
+	        {% if favicon %}
+	        <link rel="icon" href="{{ favicon.url }}">
+	        {% endif %}
+        <!--::::: ALL CSS FILES :::::::-->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Webflow" name="generator" />
-    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <link href="{{siteUrl}}style.css" rel="stylesheet" type="text/css" />
     <style>
         @media (min-width:992px) {
             html.w-mod-js:not(.w-mod-ix) [data-w-id="25948a56-9020-051b-6f8e-553087890c34"] {
@@ -35,27 +39,5 @@
     <script
         type="text/javascript">WebFont.load({ google: { families: ["Barlow:100,200,300,regular,italic,500,600,700,800:latin,latin-ext"] } });</script>
 
+
 </head>
-<div class="preloader">
-    <div class="preloader-inner">
-        <div class="preloader-brand"><img
-                src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6252f05e1b9e1160a4478ae6_holiday_village_white_24dp.svg"
-                loading="lazy" alt="" class="preloader-logo" />
-            <p class="preloader-brand-name">Silber</p>
-        </div>
-        <div class="preloader-line"></div>
-        <div class="preloader-content">
-            <div class="preloader-title-overflow">
-                <p class="preloader-content-title is-1st">Site consult steel</p>
-            </div>
-            <div class="preloader-title-overflow">
-                <p class="preloader-content-title is-2nd">construction </p>
-            </div>
-            <div class="preloader-title-overflow">
-                <p class="preloader-content-title is-3rd">Reliability. Integrity. Innivation</p>
-            </div>
-        </div>
-    </div>
-    <p class="preloader-loading">Loading</p>
-    <div class="preloader-background"></div>
-</div>

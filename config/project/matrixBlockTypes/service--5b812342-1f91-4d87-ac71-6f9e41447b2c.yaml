@@ -19,7 +19,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 36c348e3-80db-4e47-9d9f-b2f10f86b5b5
+            fieldUid: 36c348e3-80db-4e47-9d9f-b2f10f86b5b5 # Service Description
             instructions: null
             label: null
             required: false
@@ -31,7 +31,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: af80ae11-8e76-4870-b5f7-d5628a9a50b8
+            fieldUid: af80ae11-8e76-4870-b5f7-d5628a9a50b8 # Service  Image
             instructions: null
             label: null
             required: false
@@ -43,7 +43,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: b016d7bd-22f7-4824-8938-936009def2d5
+            fieldUid: b016d7bd-22f7-4824-8938-936009def2d5 # Service Url
             instructions: null
             label: null
             required: false
@@ -57,7 +57,7 @@ fieldLayouts:
         uid: ca53c080-4d09-4283-bb5e-18cb8e8a3ca2
         userCondition: null
 fields:
-  36c348e3-80db-4e47-9d9f-b2f10f86b5b5:
+  36c348e3-80db-4e47-9d9f-b2f10f86b5b5: # Service Description
     columnSuffix: ldedhssm
     contentColumnType: text
     fieldGroup: null
@@ -97,7 +97,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  af80ae11-8e76-4870-b5f7-d5628a9a50b8:
+  af80ae11-8e76-4870-b5f7-d5628a9a50b8: # Service  Image
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
@@ -146,7 +146,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  b016d7bd-22f7-4824-8938-936009def2d5:
+  b016d7bd-22f7-4824-8938-936009def2d5: # Service Url
     columnSuffix: kaimdqua
     contentColumnType: string(255)
     fieldGroup: null
