@@ -1,4 +1,4 @@
-dateModified: 1665924178
+dateModified: 1665992389
 email:
   fromEmail: ekabue0@gmail.com
   fromName: 'http://site.test'
@@ -52,9 +52,10 @@ plugins:
 system:
   edition: solo
   live: true
-  name: 'http://site.test'
+  name: 'Site consult steel'
+  retryDuration: null
   schemaVersion: 4.0.0.9
-  timeZone: America/Los_Angeles
+  timeZone: Africa/Addis_Ababa
 users:
   allowPublicRegistration: false
   defaultGroup: null
