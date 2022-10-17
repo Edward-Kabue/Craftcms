@@ -1,5 +1,7 @@
 {% extends "layout/main.twig" %}
 {% block content%}
+
+{% set projects = craft.entries.section('projects').all() %}
 <div id="webpage" class="page-wrapper">
 
         <div class="global-styles w-embed"></div>
@@ -59,67 +61,21 @@
                 </div>
             </section>
             <section id="start" class="section wf-section">
-                <div class="w-layout-grid content-grid-3">
-                    <div id="w-node-_3c108fd0-dc67-5ed0-c798-4c28fc432752-94592b9d" class="content-grid-block-4 is-1st">
-                        <div class="content-grid-inner">
-                            <div class="content-grid-title-block-1">
-                                <p class="content-grid-text-2">Satisfied clients</p>
-                            </div>
-                            <div class="content-grid-title-block-2">
-                                <p class="content-grid-number">200+</p>
-                                <div class="content-grid-pattern-2"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="w-node-_3c108fd0-dc67-5ed0-c798-4c28fc43274c-94592b9d" class="content-grid-block-4"><img
-                            src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6267a9154be6cbb4f3aef3cb_construction_FILL0_wght400_GRAD0_opsz48_blue.svg"
-                            loading="lazy" alt="" class="content-grid-icon-1" /></div><a
-                        id="w-node-_3c108fd0-dc67-5ed0-c798-4c28fc432759-94592b9d" href="/company-1"
-                        class="content-grid-block-4 is-button w-inline-block"><img
-                            src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6256816300672a60b4c5c6e3_blue-arrow-right.svg"
-                            loading="lazy" alt="" class="content-grid-icon-2" />
-                        <p class="content-grid-text-3">About company</p>
-                        <div class="content-grid-pattern"></div>
-                    </a>
-                    <div id="w-node-_182b8f2c-5ffd-ffc0-4b34-a59d8396cd23-94592b9d"
-                        class="content-grid-block-4 different-color-for-tab">
-                        <p class="content-grid-text-5">20+ years <span class="light-weight">on the market</span></p>
-                    </div>
-                    <div id="w-node-_99adc4da-5f5f-4ffa-3a43-684b1215e911-94592b9d" class="content-grid-block-4">
-                        <div class="image-animation-trigger">
-                            <div class="animation-color-bg"></div>
-                            <div data-poster-url="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6261c91e2207d67e18934fa0_pexels-tima-miroshnichenko-6474141 (1)-poster-00001.jpg"
-                                data-video-urls="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6261c91e2207d67e18934fa0_pexels-tima-miroshnichenko-6474141 (1)-transcode.mp4,https://assets.website-files.com/625295532800cfe2dd8d3dd2/6261c91e2207d67e18934fa0_pexels-tima-miroshnichenko-6474141 (1)-transcode.webm"
-                                data-autoplay="true" data-loop="true" data-wf-ignore="true"
-                                class="cover-image w-background-video w-background-video-atom"><video
-                                    id="74a24684-3961-16e8-edd1-023b86f61013-video" autoplay="" loop=""
-                                    style="background-image:url(&quot;https://assets.website-files.com/625295532800cfe2dd8d3dd2/6261c91e2207d67e18934fa0_pexels-tima-miroshnichenko-6474141 (1)-poster-00001.jpg&quot;)"
-                                    muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
-                                    <source
-                                        src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6261c91e2207d67e18934fa0_pexels-tima-miroshnichenko-6474141 (1)-transcode.mp4"
-                                        data-wf-ignore="true" />
-                                    <source
-                                        src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6261c91e2207d67e18934fa0_pexels-tima-miroshnichenko-6474141 (1)-transcode.webm"
-                                        data-wf-ignore="true" />
-                                </video></div>
-                        </div>
-                    </div>
-                    <div id="w-node-df774271-2fe5-e963-3711-cc889a19ef62-94592b9d" class="content-grid-block-4">
-                        <p class="content-grid-text-4">A leading construction and renovation company guarantees quality
-                            work.</p>
-                    </div>
-                </div>
+               
                 <div class="container">
                     <div class="padding-inner">
                         <div class="projects-with-lines">
                             <div class="projects-cms w-dyn-list">
                                 <div role="list" class="project-cms-grid w-dyn-items">
+                                {% for project in projects %}
                                     <div role="listitem" class="project-cms-item w-dyn-item"><a
-                                            href="/project/luxury-house-renovation"
+                                            href="/projects/{{ project.projectName }}"
                                             class="project-link-block w-inline-block">
                                             <div class="project-link">
                                                 <div class="project-name-overlap">
-                                                    <p class="project-name">Luxury house renovation</p>
+                                                    <p class="project-name">
+                                                   {{ project.projectName }}
+                                                    </p>
                                                 </div><img
                                                     src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6256816300672a60b4c5c6e3_blue-arrow-right.svg"
                                                     loading="lazy" alt="" class="project-icon" />
@@ -143,97 +99,10 @@
                                                         class="cover-image" />
                                                 </div>
                                             </div>
-                                        </a></div>
-                                    <div role="listitem" class="project-cms-item w-dyn-item"><a
-                                            href="/project/modern-loft-renovation"
-                                            class="project-link-block w-inline-block">
-                                            <div class="project-link">
-                                                <div class="project-name-overlap">
-                                                    <p class="project-name">Modern loft renovation</p>
-                                                </div><img
-                                                    src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6256816300672a60b4c5c6e3_blue-arrow-right.svg"
-                                                    loading="lazy" alt="" class="project-icon" />
-                                                <div class="project-bg-1"></div><img
-                                                    src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6252f1730653975c82d4a73c_east_white_24dp.svg"
-                                                    loading="lazy" alt="" class="project-icon-for-hover" />
-                                                <div class="project-bg-2"></div>
-                                                <div class="project-link-lines">
-                                                    <div class="project-line-1"></div>
-                                                    <div class="project-line-2"></div>
-                                                </div>
-                                            </div>
-                                            <div data-w-id="95166b7e-0066-a9aa-0f1a-c0d6558cca62" style="opacity:0"
-                                                class="project-gradient-bg"></div>
-                                            <div class="_3d-block">
-                                                <div class="image-animation-trigger _3d-for-image">
-                                                    <div class="animation-color-bg is-white-color"></div><img
-                                                        src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545ea71cd54c019ccc6f70_pexels-max-vakhtbovych-7545495.jpg"
-                                                        loading="lazy" alt="Modern loft renovation" sizes="45vw"
-                                                        srcset="https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545ea71cd54c019ccc6f70_pexels-max-vakhtbovych-7545495-p-800.jpeg 800w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545ea71cd54c019ccc6f70_pexels-max-vakhtbovych-7545495-p-1080.jpeg 1080w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545ea71cd54c019ccc6f70_pexels-max-vakhtbovych-7545495-p-1600.jpeg 1600w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545ea71cd54c019ccc6f70_pexels-max-vakhtbovych-7545495.jpg 1920w"
-                                                        class="cover-image" />
-                                                </div>
-                                            </div>
-                                        </a></div>
-                                    <div role="listitem" class="project-cms-item w-dyn-item"><a
-                                            href="/project/kitchen-conversion"
-                                            class="project-link-block w-inline-block">
-                                            <div class="project-link">
-                                                <div class="project-name-overlap">
-                                                    <p class="project-name">Kitchen conversion</p>
-                                                </div><img
-                                                    src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6256816300672a60b4c5c6e3_blue-arrow-right.svg"
-                                                    loading="lazy" alt="" class="project-icon" />
-                                                <div class="project-bg-1"></div><img
-                                                    src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6252f1730653975c82d4a73c_east_white_24dp.svg"
-                                                    loading="lazy" alt="" class="project-icon-for-hover" />
-                                                <div class="project-bg-2"></div>
-                                                <div class="project-link-lines">
-                                                    <div class="project-line-1"></div>
-                                                    <div class="project-line-2"></div>
-                                                </div>
-                                            </div>
-                                            <div data-w-id="95166b7e-0066-a9aa-0f1a-c0d6558cca62" style="opacity:0"
-                                                class="project-gradient-bg"></div>
-                                            <div class="_3d-block">
-                                                <div class="image-animation-trigger _3d-for-image">
-                                                    <div class="animation-color-bg is-white-color"></div><img
-                                                        src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545eaf6346751d294aff22_pexels-max-vakhtbovych-7045917.jpg"
-                                                        loading="lazy" alt="Kitchen conversion" sizes="45vw"
-                                                        srcset="https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545eaf6346751d294aff22_pexels-max-vakhtbovych-7045917-p-800.jpeg 800w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545eaf6346751d294aff22_pexels-max-vakhtbovych-7045917-p-1080.jpeg 1080w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545eaf6346751d294aff22_pexels-max-vakhtbovych-7045917-p-1600.jpeg 1600w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545eaf6346751d294aff22_pexels-max-vakhtbovych-7045917.jpg 1920w"
-                                                        class="cover-image" />
-                                                </div>
-                                            </div>
-                                        </a></div>
-                                    <div role="listitem" class="project-cms-item w-dyn-item"><a
-                                            href="/project/bathroom-complete-renovation"
-                                            class="project-link-block w-inline-block">
-                                            <div class="project-link">
-                                                <div class="project-name-overlap">
-                                                    <p class="project-name">Bathroom complete renovation</p>
-                                                </div><img
-                                                    src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6256816300672a60b4c5c6e3_blue-arrow-right.svg"
-                                                    loading="lazy" alt="" class="project-icon" />
-                                                <div class="project-bg-1"></div><img
-                                                    src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6252f1730653975c82d4a73c_east_white_24dp.svg"
-                                                    loading="lazy" alt="" class="project-icon-for-hover" />
-                                                <div class="project-bg-2"></div>
-                                                <div class="project-link-lines">
-                                                    <div class="project-line-1"></div>
-                                                    <div class="project-line-2"></div>
-                                                </div>
-                                            </div>
-                                            <div data-w-id="95166b7e-0066-a9aa-0f1a-c0d6558cca62" style="opacity:0"
-                                                class="project-gradient-bg"></div>
-                                            <div class="_3d-block">
-                                                <div class="image-animation-trigger _3d-for-image">
-                                                    <div class="animation-color-bg is-white-color"></div><img
-                                                        src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545ebc67033714c841b288_pexels-max-vakhtbovych-7546320.jpg"
-                                                        loading="lazy" alt="Bathroom complete renovation" sizes="45vw"
-                                                        srcset="https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545ebc67033714c841b288_pexels-max-vakhtbovych-7546320-p-500.jpeg 500w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545ebc67033714c841b288_pexels-max-vakhtbovych-7546320-p-800.jpeg 800w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545ebc67033714c841b288_pexels-max-vakhtbovych-7546320-p-1080.jpeg 1080w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545ebc67033714c841b288_pexels-max-vakhtbovych-7546320-p-1600.jpeg 1600w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545ebc67033714c841b288_pexels-max-vakhtbovych-7546320.jpg 1920w"
-                                                        class="cover-image" />
-                                                </div>
-                                            </div>
-                                        </a></div>
+                                        </a>
+                                    </div>
+                                {% endfor %}
+                                   
                                 </div>
                             </div>
                             <div class="blue-lines---middle">
