@@ -4929,8 +4929,6 @@ blockquote {
 .brands-logo {
     position: relative;
     z-index: 10;
-    width: 6.5em;
-    height: 1.7em;
     -o-object-fit: contain;
     object-fit: contain;
     -o-object-position: 50% 50%;
@@ -16430,4 +16428,8 @@ blockquote {
         -ms-grid-column-span: 1;
         grid-column-end: span 1
     }
+}
+
+.copyright {
+    color: #fff
 }

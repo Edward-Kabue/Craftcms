@@ -605,10 +605,11 @@
                         <div class="brands w-dyn-list">
                             <div data-w-id="6962c5e0-33b2-495b-d0fa-c872f005e478" style="opacity:0" role="list"
                                 class="brands-grid w-dyn-items">
+                                {% for logos in entry.clientLogos.all() %}
                                 <div role="listitem" class="brand-item w-dyn-item"><a href="/brand/alley"
                                         class="brand-link-block w-inline-block"><img
-                                            src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/6268019e7488f56b714e8486_alley-logo-curves.svg"
-                                            loading="lazy" alt="Alley" class="brands-logo" /></a>
+                                            src="{{logo.url}}"
+                                            loading="lazy" alt="{{logo.filename}}" class="brands-logo" /></a>
                                     <div class="corner-lines">
                                         <div class="corner-line-1"></div>
                                         <div class="corner-line-2"></div>
@@ -620,111 +621,8 @@
                                         <div class="corner-line-8"></div>
                                     </div>
                                 </div>
-                               <div role="listitem" class="brand-item w-dyn-item"><a href="/brand/loog"
-                                        class="brand-link-block w-inline-block"><img
-                                            src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/62680194b94f7bab36aead80_loog-logo-curves.svg"
-                                            loading="lazy" alt="Loog" class="brands-logo" /></a>
-                                    <div class="corner-lines">
-                                        <div class="corner-line-1"></div>
-                                        <div class="corner-line-2"></div>
-                                        <div class="corner-line-3"></div>
-                                        <div class="corner-line-4"></div>
-                                        <div class="corner-line-5"></div>
-                                        <div class="corner-line-6"></div>
-                                        <div class="corner-line-7"></div>
-                                        <div class="corner-line-8"></div>
-                                    </div>
-                                </div>
-                                <div role="listitem" class="brand-item w-dyn-item"><a href="/brand/metrik"
-                                        class="brand-link-block w-inline-block"><img
-                                            src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/6255e604945d360a14aa5573_metrik-logo.svg"
-                                            loading="lazy" alt="Metrik" class="brands-logo" /></a>
-                                    <div class="corner-lines">
-                                        <div class="corner-line-1"></div>
-                                        <div class="corner-line-2"></div>
-                                        <div class="corner-line-3"></div>
-                                        <div class="corner-line-4"></div>
-                                        <div class="corner-line-5"></div>
-                                        <div class="corner-line-6"></div>
-                                        <div class="corner-line-7"></div>
-                                        <div class="corner-line-8"></div>
-                                    </div>
-                                </div>
-                                <div role="listitem" class="brand-item w-dyn-item"><a href="/brand/packs"
-                                        class="brand-link-block w-inline-block"><img
-                                            src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/6268018c4502d107ee37d3b1_packs-logo-curves.svg"
-                                            loading="lazy" alt="Packs" class="brands-logo" /></a>
-                                    <div class="corner-lines">
-                                        <div class="corner-line-1"></div>
-                                        <div class="corner-line-2"></div>
-                                        <div class="corner-line-3"></div>
-                                        <div class="corner-line-4"></div>
-                                        <div class="corner-line-5"></div>
-                                        <div class="corner-line-6"></div>
-                                        <div class="corner-line-7"></div>
-                                        <div class="corner-line-8"></div>
-                                    </div>
-                                </div>
-                                <div role="listitem" class="brand-item w-dyn-item"><a href="/brand/papers"
-                                        class="brand-link-block w-inline-block"><img
-                                            src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/626801864869ede25b2da16e_papers-logo-curves.svg"
-                                            loading="lazy" alt="Papers" class="brands-logo" /></a>
-                                    <div class="corner-lines">
-                                        <div class="corner-line-1"></div>
-                                        <div class="corner-line-2"></div>
-                                        <div class="corner-line-3"></div>
-                                        <div class="corner-line-4"></div>
-                                        <div class="corner-line-5"></div>
-                                        <div class="corner-line-6"></div>
-                                        <div class="corner-line-7"></div>
-                                        <div class="corner-line-8"></div>
-                                    </div>
-                                </div>
-                                <div role="listitem" class="brand-item w-dyn-item"><a href="/brand/plots"
-                                        class="brand-link-block w-inline-block"><img
-                                            src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/626801a584517a53ef685ad0_plots-logo-curves.svg"
-                                            loading="lazy" alt="Plots" class="brands-logo" /></a>
-                                    <div class="corner-lines">
-                                        <div class="corner-line-1"></div>
-                                        <div class="corner-line-2"></div>
-                                        <div class="corner-line-3"></div>
-                                        <div class="corner-line-4"></div>
-                                        <div class="corner-line-5"></div>
-                                        <div class="corner-line-6"></div>
-                                        <div class="corner-line-7"></div>
-                                        <div class="corner-line-8"></div>
-                                    </div>
-                                </div>
-                                <div role="listitem" class="brand-item w-dyn-item"><a href="/brand/silber"
-                                        class="brand-link-block w-inline-block"><img
-                                            src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/6268017ec48b7f4f67275fa5_siber-logo-curves.svg"
-                                            loading="lazy" alt="Silber" class="brands-logo" /></a>
-                                    <div class="corner-lines">
-                                        <div class="corner-line-1"></div>
-                                        <div class="corner-line-2"></div>
-                                        <div class="corner-line-3"></div>
-                                        <div class="corner-line-4"></div>
-                                        <div class="corner-line-5"></div>
-                                        <div class="corner-line-6"></div>
-                                        <div class="corner-line-7"></div>
-                                        <div class="corner-line-8"></div>
-                                    </div>
-                                </div>
-                                <div role="listitem" class="brand-item w-dyn-item"><a href="/brand/taor"
-                                        class="brand-link-block w-inline-block"><img
-                                            src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/626801994869ed77602da1dc_taor-logo-curves.svg"
-                                            loading="lazy" alt="Taor" class="brands-logo" /></a>
-                                    <div class="corner-lines">
-                                        <div class="corner-line-1"></div>
-                                        <div class="corner-line-2"></div>
-                                        <div class="corner-line-3"></div>
-                                        <div class="corner-line-4"></div>
-                                        <div class="corner-line-5"></div>
-                                        <div class="corner-line-6"></div>
-                                        <div class="corner-line-7"></div>
-                                        <div class="corner-line-8"></div>
-                                    </div>
-                                </div> 
+                                {% endfor %}
+                               
                             </div>
                         </div>
                         <div class="w-layout-grid brands-content-grid">
