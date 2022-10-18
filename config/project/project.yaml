@@ -1,4 +1,4 @@
-dateModified: 1665997358
+dateModified: 1666075498
 email:
   fromEmail: ekabue0@gmail.com
   fromName: 'http://site.test'
@@ -34,6 +34,7 @@ meta:
     68cb522e-e3b5-418c-b319-1920fe9caa89: Images # Images
     95fb19d8-e7fb-43bb-8322-0eda144557a3: 'http://site.test' # http://site.test
     352b53a7-2b29-4e88-b288-bcc5b7aa0a69: 'value Title' # value Title
+    536485e0-cc4f-4ae6-b249-d2f5add291a7: coverImage # coverImage
     7363904e-a5d1-4ef0-b5cf-ad598c922a68: Common # Common
     52139314-0d5f-4f6a-a942-c10055e7117f: 'Hero Subtitle' # Hero Subtitle
     a0056a32-c1d0-42e3-9b6c-f0ead87fd0df: 'Client Logos' # Client Logos
@@ -46,6 +47,7 @@ meta:
     c9cd0c14-9d24-489c-9509-8a65e38773ea: 'value Text' # value Text
     c98002e6-2975-4bbb-9025-9ae3e4f77f83: projects # projects
     d48a7531-7b4b-4faa-8137-b3a280b72e5b: 'Hero Title' # Hero Title
+    d79868ba-33f9-4aad-86be-92e32ca1eb94: 'Project Description' # Project Description
     e8dadebe-05e0-49d0-a997-6f2f05241d98: 'About us' # About us
     e2044ab7-a88b-4511-8f76-7e96dcfa5f73: Home # Home
     ff55a44d-aa6b-4e33-baf3-f95fa52a45c0: Home # Home
