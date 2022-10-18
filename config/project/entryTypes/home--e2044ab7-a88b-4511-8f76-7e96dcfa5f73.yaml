@@ -32,6 +32,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 5bac62a4-ec9c-4639-9ae8-168b2b0ca90c # Intro Video
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 25196dbe-6a01-4482-8157-e403629b37b3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: d48a7531-7b4b-4faa-8137-b3a280b72e5b # Hero Title
             instructions: null
             label: null
@@ -90,42 +102,6 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-          -
-            elementCondition: null
-            fieldUid: 3b126943-61c7-49ff-be5f-5446e2f47d7d
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 5a8083dd-9e36-4180-ace8-4d6f432bb604
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: f65968aa-ac82-434c-b644-36d3c4d78123
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 583bb723-2577-4627-96ff-3d0648a75e0b
-            userCondition: null
-            warning: null
-            width: 50
-          -
-            elementCondition: null
-            fieldUid: c6691c90-6fca-4044-bd0b-ba86b28b5e01
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 6932f2be-8ba9-47f9-b7c5-cfe9aad4c13a
-            userCondition: null
-            warning: null
-            width: 50
         name: Services
         uid: 5d1dd9e0-23be-4f42-81ee-b92394f2610d
         userCondition: null

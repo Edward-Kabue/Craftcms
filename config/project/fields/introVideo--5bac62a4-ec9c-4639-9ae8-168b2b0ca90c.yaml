@@ -1,0 +1,14 @@
+columnSuffix: cuzetpzg
+contentColumnType: string(255)
+fieldGroup: 6dd1fbd2-7a00-4dd0-869f-c678899cf8ee # Home
+handle: introVideo
+instructions: null
+name: 'Intro Video'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

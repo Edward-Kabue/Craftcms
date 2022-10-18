@@ -1,0 +1,14 @@
+columnSuffix: welyegsq
+contentColumnType: string(255)
+fieldGroup: 7363904e-a5d1-4ef0-b5cf-ad598c922a68 # Common
+handle: twitter
+instructions: null
+name: Twitter
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

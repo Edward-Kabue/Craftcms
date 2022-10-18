@@ -2,22 +2,22 @@
     <div class="socials-in-footer">
         <div class="footer-socials w-dyn-list">
             <div role="list" class="footer-social-list w-dyn-items">
-                <div role="listitem" class="footer-social-item w-dyn-item"><a href="#"
+                <div role="listitem" class="footer-social-item w-dyn-item"><a href="{{footer.twitter}}"
                         class="moving-link w-inline-block"><img
                             src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/62530e0b95e36cefd17a0041_twitter-logo-white.svg"
                             loading="lazy" alt="" class="moving-icon" />
                         <div class="moving-link-circle"></div>
                     </a></div>
-                <div role="listitem" class="footer-social-item w-dyn-item"><a href="#"
+                <div role="listitem" class="footer-social-item w-dyn-item"><a href="{{footer.facebook}}"
                         class="moving-link w-inline-block"><img
                             src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/62530e1178c1b122e497e2a5_facebook-logo-white.svg"
                             loading="lazy" alt="" class="moving-icon" />
                         <div class="moving-link-circle"></div>
                     </a></div>
-                <div role="listitem" class="footer-social-item w-dyn-item"><a href="#"
+                <div role="listitem" class="footer-social-item w-dyn-item"><a href="{{footer.instagram}}"
                         class="moving-link w-inline-block"><img
                             src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/62530e183660db0a309e3e2b_instagram-logo-white.svg"
-                            loading="lazy" alt="" class="moving-icon" />
+                            loading="lazy" alt="siteconsult_instagram" class="moving-icon" />
                         <div class="moving-link-circle"></div>
                     </a></div>
             </div>
@@ -64,16 +64,14 @@
                             <p class="footer-about-text">You can contact us through phone or email. We are
                                 ready to help you.</p>
                         </div>
-                        <div class="footer-contact-links"><a href="#" class="footer-small-link w-inline-block">
-                                <p class="footer-contact-text">your.company@silber.com</p>
-                            </a><a href="#" class="footer-small-link w-inline-block">
-                                <p class="footer-contact-text">+ 555 (33) 777 888 21</p>
+                        <div class="footer-contact-links"><a href="mailto:{{footer.footerEmail}}" class="footer-small-link w-inline-block">
+                            <p class="footer-contact-text">{{footer.footerEmail}}</p>
+                            </a><a href="tel:{{footer.footerPhonenumber}}" class="footer-small-link w-inline-block">
+                                <p class="footer-contact-text">{{footer.footerPhonenumber}}</p>
                             </a></div>
                     </div><a href="/contact-1" class="footer-address-button w-inline-block">
                         <p class="footer-uppercase-title">Office</p>
-                        <p class="footer-address">93 Bootham Terrace<br />Ravenfields 65 0TU</p><img
-                            src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/625683325e87f6075985fef7_house-blue-icon-2.svg"
-                            loading="lazy" alt="" class="footer-address-icon" />
+                        <p class="footer-address">{{footer.footerLocation}}</p>
                         <div class="address-pattern"></div>
                     </a>
                 </div>

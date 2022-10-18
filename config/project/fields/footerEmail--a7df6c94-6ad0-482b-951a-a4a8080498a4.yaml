@@ -1,0 +1,12 @@
+columnSuffix: zbtldrny
+contentColumnType: string
+fieldGroup: 7363904e-a5d1-4ef0-b5cf-ad598c922a68 # Common
+handle: footerEmail
+instructions: null
+name: 'Footer Email'
+searchable: false
+settings:
+  placeholder: 'Enter email'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Email

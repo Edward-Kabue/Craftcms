@@ -1,0 +1,36 @@
+fieldLayouts:
+  78613054-6ee1-42b6-8cc6-bf284a7ae6e6:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 13f008a9-c2c9-44b3-ab1a-d000388820d0 # preloader Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6609b78a-0354-4416-81c0-ec174ce20839
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5c09f83a-d109-4c22-bff4-99e650d8cab5 # Preloader Subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 195b7d4f-7bc6-4648-a0a6-71b74fdcf235
+            userCondition: null
+            warning: null
+            width: 100
+        name: content
+        uid: 1f4325c0-8bbb-4a70-bb83-7247df88b202
+        userCondition: null
+handle: preloader
+name: Preloader
+sortOrder: 2

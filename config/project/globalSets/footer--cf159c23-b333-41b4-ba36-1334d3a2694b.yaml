@@ -1,0 +1,84 @@
+fieldLayouts:
+  7bc602d4-383c-4ccf-aa8d-641b584d80ed:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 413b23e4-c169-4637-84ce-45d18f6bcff6 # Footer Location
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 01e930f7-23ba-4e4f-964b-d10baa3d8551
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a7df6c94-6ad0-482b-951a-a4a8080498a4 # Footer Email
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 868f3ea4-e4fd-4d9e-83e0-d0b1d40a800e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0d4fd89c-b486-4e2f-970a-0e7046290c00 # Footer Phonenumber
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0211d0c3-fefa-41c2-9021-d227c28cfc36
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d57ced88-cdf6-47fc-a434-53825a630fc5 # Twitter
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 65446e12-d7d3-4974-9aeb-05c7fc0c7b24
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b074a87c-975a-44df-9198-c1d9f71100d9 # instagram
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bfc2c869-fe2d-4e66-8ecb-7f6db3791a0c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7bfba1e2-c815-4268-847b-1b9993cbcb5c # Facebook
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 00a0caa3-f60f-4d21-af26-eaa610b679d2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 4de68b15-0580-43f8-9d5f-b98ef4435440
+        userCondition: null
+handle: footer
+name: Footer
+sortOrder: 3
