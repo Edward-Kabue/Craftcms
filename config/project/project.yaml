@@ -1,4 +1,4 @@
-dateModified: 1666083749
+dateModified: 1666088804
 email:
   fromEmail: ekabue0@gmail.com
   fromName: 'http://site.test'
@@ -30,6 +30,7 @@ meta:
     7f1d2261-d055-46c9-8819-49550e0061b2: Values # Values
     8b9e95dd-744b-4cd8-9610-92c630a351b4: Logo # Logo
     8fc257c4-8af7-403b-9aab-836c4c06ea57: project # project
+    9a8f1447-4ae4-4d73-bca9-320927a312e2: 'service Image' # service Image
     13f008a9-c2c9-44b3-ab1a-d000388820d0: 'preloader Title' # preloader Title
     36c348e3-80db-4e47-9d9f-b2f10f86b5b5: 'Service Description' # Service Description
     41e52a82-2f38-4879-950f-eb3b579cb861: 'Service Title' # Service Title
@@ -37,6 +38,7 @@ meta:
     53f52c04-39c7-4620-98e1-1bd1caccecce: Services # Services
     55fe5512-a3a3-4e74-bec2-1e266007fe59: 'about Hero' # about Hero
     68cb522e-e3b5-418c-b319-1920fe9caa89: Images # Images
+    88ddb5e4-187d-4e2d-bc11-79a6bd962e7d: services # services
     90a30bc4-5358-42ca-9d9f-a52dea0064b4: Preloader # Preloader
     95fb19d8-e7fb-43bb-8322-0eda144557a3: 'http://site.test' # http://site.test
     352b53a7-2b29-4e88-b288-bcc5b7aa0a69: 'value Title' # value Title
@@ -44,9 +46,11 @@ meta:
     536485e0-cc4f-4ae6-b249-d2f5add291a7: coverImage # coverImage
     7363904e-a5d1-4ef0-b5cf-ad598c922a68: Common # Common
     52139314-0d5f-4f6a-a942-c10055e7117f: 'Hero Subtitle' # Hero Subtitle
+    90929056-8f5d-470d-a185-03802034c2f0: 'service Title' # service Title
     a0056a32-c1d0-42e3-9b6c-f0ead87fd0df: 'Client Logos' # Client Logos
     a1afe4ff-8bbf-4a85-9c3e-b8df5f31eda2: 'mission Text' # mission Text
     a7df6c94-6ad0-482b-951a-a4a8080498a4: 'Footer Email' # Footer Email
+    af27c3cc-6e33-4164-867b-7a34f7e177af: Default # Default
     af80ae11-8e76-4870-b5f7-d5628a9a50b8: 'Service  Image' # Service  Image
     afacf5e3-057c-4600-a769-6cfcf2bd9bae: values # values
     b016d7bd-22f7-4824-8938-936009def2d5: 'Service Url' # Service Url
@@ -54,6 +58,7 @@ meta:
     ba810493-101f-4642-9440-9881c8055c29: 'About us' # About us
     be2d5368-df91-41b2-8377-aa5bb66594f1: Default # Default
     c9cd0c14-9d24-489c-9509-8a65e38773ea: 'value Text' # value Text
+    c4293c92-f128-434c-a51f-4c3ea58bb4ff: services # services
     c98002e6-2975-4bbb-9025-9ae3e4f77f83: projects # projects
     cf159c23-b333-41b4-ba36-1334d3a2694b: Footer # Footer
     d48a7531-7b4b-4faa-8137-b3a280b72e5b: 'Hero Title' # Hero Title

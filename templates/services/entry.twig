@@ -1,0 +1,243 @@
+{% extends "layout/main.twig" %}
+{% block content%}
+
+<body>
+
+    <div id="web" >
+       
+      {% set Photo = entry.backgroundImage.one() %}
+        <div class="global-styles w-embed"></div>
+         <div class="second-navbar"><a href="#" class="aside-contact-button w-inline-block"><img
+                    src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6258131bac44e22abdd9e8ce_email_white_24dp.svg"
+                    loading="lazy" alt="" class="aside-icon" /></a><a href="#description" class="scroll-to-button w-inline-block">
+                <div class="aside-button-line"></div><img
+                    src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/625319874a18755529409557_expand_more_white_24dp.svg"
+                    loading="lazy" alt="" class="icon-scroll-to" />
+            </a><a href="#web" class="right-menu-button is-goes-up w-inline-block"><img
+                    src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/62587db8e356a3457738948a_expand_less_white_24dp.svg"
+                    loading="lazy" alt="" class="goes-up-icon" /></a></div>
+                  
+        <main class="main">
+            <section class="section wf-section">
+                <div class="hero-project-cms">
+                    <div class="container">
+                        <h1 data-w-id="db830109-84fa-3387-cde1-51de02206168" 
+                            class="heading is-project-cms-title">{{entry.serviceTitle}}</h1>
+                    </div>
+                    <div class="absolute-block">
+                        <div data-w-id="191c455b-cd07-7a8f-82d8-5e774f4cf98a" 
+                        <div class="_3d-block">
+                            <div class="image-animation-trigger _3d-for-image">
+                                <div class="animation-color-bg is-white-color"></div><img
+                                    src="{{Photo.url}}"
+                                    loading="lazy" alt="{{entry.serviceTitle}}" sizes="100vw"
+                                    {# srcset="https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545ea71cd54c019ccc6f70_pexels-max-vakhtbovych-7545495-p-800.jpeg 800w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545ea71cd54c019ccc6f70_pexels-max-vakhtbovych-7545495-p-1080.jpeg 1080w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545ea71cd54c019ccc6f70_pexels-max-vakhtbovych-7545495-p-1600.jpeg 1600w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545ea71cd54c019ccc6f70_pexels-max-vakhtbovych-7545495.jpg 1920w" #}
+                                    class="cover-image" />
+                            </div>
+                        </div>
+                        <div class="pattern-background in-project-cms"></div>
+                    </div>
+                </div>
+                <div class="w-layout-grid grid-for-button-2">
+                    <div id="w-node-cf2b8de4-700e-73b4-26a6-2dfd653c943d-7f92a080" class="grid-button-item"><a
+                            href="#start" class="explore-link-button w-inline-block">
+                            <p class="explore-text">Explore</p><img
+                                src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6253198640cd9ac45afbec8b_arrow_downward_white_24dp.svg"
+                                loading="lazy" alt="" class="explore-icon" />
+                            <div class="explore-background"></div>
+                        </a></div>
+                    <div id="w-node-_29c26390-1a0c-8e4a-8b8f-ee9c95d08087-7f92a080" class="grid-button-item"><a
+                            href="/contact" class="explore-link-button is-inquiry w-inline-block">
+                            <p class="explore-text">Inquiry</p><img
+                                src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6255e4c6bc47f1efe042ac1c_north_east_white_24dp.svg"
+                                loading="lazy" alt="" class="explore-icon is-inquiry" />
+                            <div class="explore-background is-black-color"></div>
+                        </a></div>
+                </div>
+            </section>
+            <section id="start" class="section overflow-visible wf-section">
+                <div class="container">
+                    <div class="padding-inner">
+                        <h2 data-w-id="041e01dc-1503-0801-4d17-fd2e0362b95b" style="opacity:1"
+                            class="heading is-about-cms-title">{{entry.serviceTitle}}</h2>
+                        <div class="grid-for-cms-content">
+                            <div id="w-node-_041e01dc-1503-0801-4d17-fd2e0362b95e-7f92a080"
+                                class="cms-content-column-1">
+                                <div id="w-node-_041e01dc-1503-0801-4d17-fd2e0362b95f-7f92a080"
+                                    class="cms-content-links w-dyn-list">
+                                    <div role="list" class="cms-content-links-list w-dyn-items">
+                                        <div role="listitem" class="cms-content-link w-dyn-item"><a
+                                                data-w-id="041e01dc-1503-0801-4d17-fd2e0362b962" style="opacity:1"
+                                                href="#description"
+                                                class="cms-content-link-block w-inline-block">
+                                                <p class="cms-content-link-title">Description</p>
+                                            </a></div>
+                                        <div role="listitem" class="cms-content-link w-dyn-item"><a
+                                                data-w-id="041e01dc-1503-0801-4d17-fd2e0362b962" style="opacity:1"
+                                                href="#gallery" aria-current="page"
+                                                class="cms-content-link-block w-inline-block w--current">
+                                                <p class="cms-content-link-title">Gallery</p>
+                                            </a></div>
+                                        <div role="listitem" class="cms-content-link w-dyn-item"><a
+                                                data-w-id="041e01dc-1503-0801-4d17-fd2e0362b962" style="opacity:1"
+                                                href="#projects"
+                                                class="cms-content-link-block w-inline-block">
+                                                <p class="cms-content-link-title">Other projects</p>
+                                            </a></div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cms-content-column-2" id="description">
+                                <div data-w-id="041e01dc-1503-0801-4d17-fd2e0362b969" style="opacity:1"
+                                    class="rich-text with-margin w-richtext">
+                                   {{entry.serviceDescription}}
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section blue-ligh-bg wf-section" id="gallery">
+                <div class="container">
+                    <div class="padding-inner">
+                        <div class="content-block-4">
+                            <h4 data-w-id="4d478bfc-0d1d-5a31-f242-5c6958a34715" style="opacity:1"
+                                class="heading is-content-title-4">Gallery</h4>
+                            <p data-w-id="4d478bfc-0d1d-5a31-f242-5c6958a34717" style="opacity:1"
+                                class="content-subtitle-4">Our service works look like this</p>
+                        </div>
+                        <div class="projects-with-lines with-margin">
+                            <div class="large-gallery w-dyn-list">
+                                <script type="text/x-wf-template"
+                                    id="wf-template-57017f82-8334-04d2-14bd-4bb657856a39">%3Cdiv%20role%3D%22listitem%22%20class%3D%22large-gallery-item%20w-dyn-item%20w-dyn-repeater-item%22%3E%3Ca%20href%3D%22%23%22%20class%3D%22gallery-lightbox%20is-large-image%20w-inline-block%20w-lightbox%22%3E%3Cimg%20src%3D%22https%3A%2F%2Fassets.website-files.com%2F6252f3c395e36c6da2794a2c%2F62545ea71cd54c019ccc6f70_pexels-max-vakhtbovych-7545495.jpg%22%20loading%3D%22lazy%22%20alt%3D%22%22%20class%3D%22gallery-thumbnail%22%2F%3E%3Cdiv%20class%3D%22gallery-background%22%3E%3C%2Fdiv%3E%3Cimg%20src%3D%22https%3A%2F%2Fassets.website-files.com%2F625295532800cfe2dd8d3dd2%2F625fdc4e49fd719bdf573e4c_open_in_full_white_24dp.svg%22%20loading%3D%22lazy%22%20alt%3D%22%22%20class%3D%22icon%20in-gallery%22%2F%3E%3Cscript%20type%3D%22application%2Fjson%22%20class%3D%22w-json%22%3E%7B%0A%20%20%22items%22%3A%20%5B%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22url%22%3A%20%22https%3A%2F%2Fuploads-ssl.webflow.com%2F6252f3c395e36c6da2794a2c%2F62545ea71cd54c019ccc6f70_pexels-max-vakhtbovych-7545495.jpg%22%2C%0A%20%20%20%20%20%20%22type%22%3A%20%22image%22%0A%20%20%20%20%7D%0A%20%20%5D%2C%0A%20%20%22group%22%3A%20%22Project%22%0A%7D%3C%2Fscript%3E%3C%2Fa%3E%3C%2Fdiv%3E</script>
+                                <div role="list" class="large-gallery-grid w-dyn-items">
+                                  {% for galleryphoto in entry.serviceImage %}
+                                    <div role="listitem" class="large-gallery-item w-dyn-item w-dyn-repeater-item"><a
+                                            href="#"
+                                            class="gallery-lightbox is-large-image w-inline-block w-lightbox"><img
+                                                src="{{galleryphoto.url}}"
+                                                loading="lazy" alt="" class="gallery-thumbnail" />
+                                            <div class="gallery-background"></div><img
+                                                src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/625fdc4e49fd719bdf573e4c_open_in_full_white_24dp.svg"
+                                                loading="lazy" alt="" class="icon in-gallery" />
+                                                <script type="application/json" class="w-json">
+                                                    {
+                                                        "items": [
+                                                            {
+                                                            "url": "{{galleryphoto.url}}",
+                                                            "type": "image"
+                                                            }
+                                                        ],
+                                                        "group": "Project"
+                                                    }
+                                                </script>
+                                            
+                                        </a></div>
+                                        {% endfor %}
+                                    
+                                <div class="empty-state-hidden w-dyn-hide w-dyn-empty">
+                                    <div>No Photos at the moment</div>
+                                </div>
+                            </div>
+                            <div class="blue-lines---middle">
+                                <div class="blue-line-1"></div>
+                                <div class="blue-line-2"></div>
+                            </div>
+                            <div class="blue-lines---middle-right">
+                                <div class="blue-line-1"></div>
+                                <div class="blue-line-2"></div>
+                            </div>
+                            <div class="blue-lines---middle-left">
+                                <div class="blue-line-1"></div>
+                                <div class="blue-line-2"></div>
+                            </div>
+                            <div class="blue-lines---corner-left-2">
+                                <div class="blue-line-1"></div>
+                                <div class="blue-line-2"></div>
+                            </div>
+                            <div class="blue-lines---corner-left">
+                                <div class="blue-line-1"></div>
+                                <div class="blue-line-2"></div>
+                            </div>
+                            <div class="blue-lines---corner-right">
+                                <div class="blue-line-1"></div>
+                                <div class="blue-line-2"></div>
+                            </div>
+                            <div class="blue-lines---corner-right-2">
+                                <div class="blue-line-1"></div>
+                                <div class="blue-line-2"></div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </section>
+            <section id="projects" class="section wf-section">
+                <div class="container">
+                    <div class="padding-inner">
+                        <div class="content-block-4">
+                            <h4 data-w-id="2a49c9e0-39fc-a59b-5140-0e71da139e70" style="opacity:1"
+                                class="heading is-content-title-4">Other projects</h4>
+                            <p data-w-id="2a49c9e0-39fc-a59b-5140-0e71da139e72" style="opacity:1"
+                                class="content-subtitle-4">You may also like</p>
+                        </div>
+                           {% set  services = craft.entries.section('services').limit(4) %}
+                               
+                       
+                    </div>
+                </div>
+            </section>
+           
+           <!--////////////////////////////////cta////////////////////////////////-->
+            <section class="section cta-content-1 wf-section">
+                <div class="container is-cta-container">
+                    <div class="w-layout-grid content-grid-4">
+                        <div class="content-grid-4-block">
+                            <p data-w-id="6d675344-39d4-6367-c314-d97b69cc78d2" class="hire-us-text">
+                                Hire us</p>
+                            <h3 data-w-id="6d675344-39d4-6367-c314-d97b69cc78d4" class="heading is-cta-title-1">
+                                Reach out today and start this amazing journey with us
+                            </h3>
+                            <div class="button-overlap-1"><a href="/contact" class="main-button w-inline-block">
+                                    <div class="button-inner">
+                                        <p class="button-title">Inquiry</p><img
+                                            src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6252f1730653975c82d4a73c_east_white_24dp.svg"
+                                            loading="lazy" alt="" class="button-icon" />
+                                    </div>
+                                    <div class="button-pattern"></div>
+                                </a></div>
+                        </div>
+                        <div id="w-node-_6d675344-39d4-6367-c314-d97b69cc78d8-e3cdb512"
+                            data-w-id="6d675344-39d4-6367-c314-d97b69cc78d8" class="height-120-per">
+                            <div class="_3d-block is-visible">
+                                <div class="image-animation-trigger _3d-for-image-visible">
+                                    <div class="animation-color-bg"></div><img
+                                        src="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6255b4f7dc4ef0744322125a_pexels-max-vakhtbovych-8082313.jpg"
+                                        loading="lazy"
+                                        sizes="(max-width: 479px) 84vw, (max-width: 767px) 89vw, (max-width: 991px) 91vw, (max-width: 1439px) 82vw, (max-width: 1919px) 83vw, 1330px"
+                                        srcset="https://assets.website-files.com/625295532800cfe2dd8d3dd2/6255b4f7dc4ef0744322125a_pexels-max-vakhtbovych-8082313-p-500.jpeg 500w, https://assets.website-files.com/625295532800cfe2dd8d3dd2/6255b4f7dc4ef0744322125a_pexels-max-vakhtbovych-8082313-p-800.jpeg 800w, https://assets.website-files.com/625295532800cfe2dd8d3dd2/6255b4f7dc4ef0744322125a_pexels-max-vakhtbovych-8082313-p-1080.jpeg 1080w, https://assets.website-files.com/625295532800cfe2dd8d3dd2/6255b4f7dc4ef0744322125a_pexels-max-vakhtbovych-8082313-p-1600.jpeg 1600w, https://assets.website-files.com/625295532800cfe2dd8d3dd2/6255b4f7dc4ef0744322125a_pexels-max-vakhtbovych-8082313.jpg 1920w"
+                                        alt="Construction and renovation webflow template sample image"
+                                        class="cover-image" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blue-95-background"></div>
+            </section>
+            <!--cta -->
+           
+            
+        </main>
+    </div>
+   <script src="{{siteUrl}}jquett.js"
+        type="text/javascript" 
+        crossorigin="anonymous"></script>
+    <script src="{{siteUrl}}flow.js"
+        type="text/javascript"></script>
+    <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+</body>
+{% endblock %}

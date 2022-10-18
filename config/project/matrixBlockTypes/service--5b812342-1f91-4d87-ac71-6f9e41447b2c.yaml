@@ -111,12 +111,11 @@ fields:
       allowUploads: true
       allowedKinds:
         - image
-        - video
       defaultUploadLocationSource: 'volume:68cb522e-e3b5-418c-b319-1920fe9caa89' # Images
       defaultUploadLocationSubpath: null
       localizeRelations: false
       maxRelations: null
-      minRelations: 1
+      minRelations: null
       previewMode: full
       restrictFiles: true
       restrictLocation: true
@@ -135,7 +134,7 @@ fields:
             - class
             - craft\elements\conditions\assets\AssetCondition
       selectionLabel: null
-      showSiteMenu: false
+      showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       source: null

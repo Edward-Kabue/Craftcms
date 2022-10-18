@@ -1,0 +1,19 @@
+columnSuffix: mzartqsu
+contentColumnType: text
+fieldGroup: c4293c92-f128-434c-a51f-4c3ea58bb4ff # services
+handle: serviceTitle
+instructions: null
+name: 'service Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
