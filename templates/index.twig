@@ -109,8 +109,7 @@
                         <div class="max-width-1">
                             <p class="uppercase-title-border">About us</p>
                             <h4 data-w-id="250f4770-b3a7-e380-b64b-0ab02a3f5525" style="opacity:0"
-                                class="heading is-content-title-2">precision and tenacity to provide building and home
-                                solutions and services</h4>
+                                class="heading is-content-title-2">A bit about us</h4>
                         </div>
                         <div class="content-grid-1">
                             <div id="w-node-b5922f5a-0b88-2202-ca2a-2313e26f7f1f-d68d3dd3" class="content-block-5">
@@ -163,8 +162,8 @@
                     <div class="services-padding">
                         <div data-w-id="decb06f4-927c-e1a0-b9cc-9bae23979260" class="max-width-2">
                             <p class="uppercase-title-border">Services</p>
-                            <h3 class="heading is-content-title-5">We specialising in renovations &amp; extensions.
-                                <span class="opacity-70">Aim to details.</span>
+                            <h3 class="heading is-content-title-5"> What we do
+                                
                             </h3>
                             <div class="moving-button-trigger">
                                 <a href="/services" class="main-button w-inline-block">
@@ -275,8 +274,7 @@
                     <div class="content-padding">
                         <div data-w-id="b479ba17-3d09-4dee-ac08-28c98b603fde" class="max-width-6">
                             <p class="uppercase-title-border">Projects</p>
-                            <h2 class="heading is-content-title-5">We realized <span class="opacity-70">more than</span>
-                                100+ constructions</h2>
+                            <h2 class="heading is-content-title-5">Some of our work</h2>
                             <div class="moving-button-trigger"><a href="/projects" class="main-button w-inline-block">
                                     <div class="button-inner">
                                         <p class="button-title">All projects</p><img
@@ -289,8 +287,9 @@
                         <div class="projects-with-lines">
                             <div class="projects-cms w-dyn-list">
                                 <div role="list" class="project-cms-grid w-dyn-items">
-                                {%set  projects = craft.entries.section('projects').limit(4) %}
+                                {% set  projects = craft.entries.section('projects').limit(4) %}
                                  {% for project in projects %}
+                                  {% set galleryphoto = project.coverimage.one() %}
                                     <div role="listitem" class="project-cms-item w-dyn-item"><a
                                             href="/project/luxury-house-renovation"
                                             class="project-link-block w-inline-block">
@@ -314,9 +313,9 @@
                                             <div class="_3d-block">
                                                 <div class="image-animation-trigger _3d-for-image">
                                                     <div class="animation-color-bg is-white-color"></div><img
-                                                        src="https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545e9d59e6100b9689423f_pexels-max-vakhtbovych-7546213.jpg"
+                                                        src="{{galleryphoto.url}}"
                                                         loading="lazy" alt="Luxury house renovation" sizes="45vw"
-                                                        srcset="https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545e9d59e6100b9689423f_pexels-max-vakhtbovych-7546213-p-800.jpeg 800w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545e9d59e6100b9689423f_pexels-max-vakhtbovych-7546213-p-1080.jpeg 1080w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545e9d59e6100b9689423f_pexels-max-vakhtbovych-7546213-p-1600.jpeg 1600w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545e9d59e6100b9689423f_pexels-max-vakhtbovych-7546213.jpg 1920w"
+                                                        {# srcset="https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545e9d59e6100b9689423f_pexels-max-vakhtbovych-7546213-p-800.jpeg 800w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545e9d59e6100b9689423f_pexels-max-vakhtbovych-7546213-p-1080.jpeg 1080w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545e9d59e6100b9689423f_pexels-max-vakhtbovych-7546213-p-1600.jpeg 1600w, https://assets.website-files.com/6252f3c395e36c6da2794a2c/62545e9d59e6100b9689423f_pexels-max-vakhtbovych-7546213.jpg 1920w" #}
                                                         class="cover-image" />
                                                 </div>
                                             </div>

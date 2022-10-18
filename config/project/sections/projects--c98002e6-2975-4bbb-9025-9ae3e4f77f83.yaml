@@ -1,12 +1,1 @@
-defaultPlacement: end
-enableVersioning: true
-handle: projects
-name: projects
-propagationMethod: all
-siteSettings:
-  95fb19d8-e7fb-43bb-8322-0eda144557a3: # http://site.test
-    enabledByDefault: true
-    hasUrls: true
-    template: projects\entry.twig
-    uriFormat: 'projects/{slug}'
-type: channel
+l
