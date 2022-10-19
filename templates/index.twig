@@ -289,9 +289,9 @@
                                 <div role="list" class="project-cms-grid w-dyn-items">
                                 {% set  projects = craft.entries.section('projects').limit(4) %}
                                  {% for project in projects %}
-                                  {% set galleryphoto = project.coverimage.one() %}
+                                  {% set galleryphoto = project.coverImage.one() %}
                                     <div role="listitem" class="project-cms-item w-dyn-item"><a
-                                            href="/project/luxury-house-renovation"
+                                            href="/projects/{{project.slug}}"
                                             class="project-link-block w-inline-block">
                                             <div class="project-link">
                                                 <div class="project-name-overlap">
