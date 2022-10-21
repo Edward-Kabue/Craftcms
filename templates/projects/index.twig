@@ -85,19 +85,21 @@
                             </a></div>
                     </div>
                 </section>
-                <section id="start" class="section wf-section">
+                <section  id="start" class="section wf-section">
                 
                     <div class="container">
                         <div class="padding-inner">
-                            <div class="projects-with-lines">
-                                <div class="projects-cms w-dyn-list">
+                            <div class="projects-with-lines with-margin">
+                            <div class="large-gallery w-dyn-list">
+                                <script type="text/x-wf-template"
+                                    id="wf-template-57017f82-8334-04d2-14bd-4bb657856a39">%3Cdiv%20role%3D%22listitem%22%20class%3D%22large-gallery-item%20w-dyn-item%20w-dyn-repeater-item%22%3E%3Ca%20href%3D%22%23%22%20class%3D%22gallery-lightbox%20is-large-image%20w-inline-block%20w-lightbox%22%3E%3Cimg%20src%3D%22https%3A%2F%2Fassets.website-files.com%2F6252f3c395e36c6da2794a2c%2F62545ea71cd54c019ccc6f70_pexels-max-vakhtbovych-7545495.jpg%22%20loading%3D%22lazy%22%20alt%3D%22%22%20class%3D%22gallery-thumbnail%22%2F%3E%3Cdiv%20class%3D%22gallery-background%22%3E%3C%2Fdiv%3E%3Cimg%20src%3D%22https%3A%2F%2Fassets.website-files.com%2F625295532800cfe2dd8d3dd2%2F625fdc4e49fd719bdf573e4c_open_in_full_white_24dp.svg%22%20loading%3D%22lazy%22%20alt%3D%22%22%20class%3D%22icon%20in-gallery%22%2F%3E%3Cscript%20type%3D%22application%2Fjson%22%20class%3D%22w-json%22%3E%7B%0A%20%20%22items%22%3A%20%5B%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22url%22%3A%20%22https%3A%2F%2Fuploads-ssl.webflow.com%2F6252f3c395e36c6da2794a2c%2F62545ea71cd54c019ccc6f70_pexels-max-vakhtbovych-7545495.jpg%22%2C%0A%20%20%20%20%20%20%22type%22%3A%20%22image%22%0A%20%20%20%20%7D%0A%20%20%5D%2C%0A%20%20%22group%22%3A%20%22Project%22%0A%7D%3C%2Fscript%3E%3C%2Fa%3E%3C%2Fdiv%3E</script>
                                 
-                                    <div role="list" class="project-cms-grid w-dyn-items">
+                                    <div role="list" class="large-gallery-grid w-dyn-items">
                                         {%  set  works = craft.entries.section('projects').all() %}
                                         {% for work in works %}
                                          {% set galleryphoto = work.coverImage.one() %}
-                                            <div role="listitem" class="project-cms-item w-dyn-item"><a
-                                                    href="{{ work.slug }}"
+                                            <div role="listitem" class="large-gallery-item w-dyn-item w-dyn-repeater-item"><a
+                                                    href="/projects/{{ work.slug }}"
                                                     class="project-link-block w-inline-block">
                                                     <div class="project-link">
                                                         <div class="project-name-overlap">
@@ -116,7 +118,7 @@
                                                             <div class="project-line-2"></div>
                                                         </div>
                                                     </div>
-                                                    <div data-w-id="95166b7e-0066-a9aa-0f1a-c0d6558cca62" style="opacity:0"
+                                                    <div  style="opacity:0"
                                                         class="project-gradient-bg"></div>
                                                     <div class="_3d-block">
                                                         <div class="image-animation-trigger _3d-for-image">
@@ -130,9 +132,9 @@
                                                 </a>
                                             </div>
                                        
-                                    
+                                    {% endfor %}
                                     </div>
-                                     {% endfor %}
+                                     
                                 </div>
                                 <div class="blue-lines---middle">
                                     <div class="blue-line-1"></div>
