@@ -1,7 +1,7 @@
 Steel Roofing Solutions Website
 ===============================
 
-This is a Craft CMS website designed to provide comprehensive information about steel roofing solutions. The website is built using the Craft CMS platform, a flexible and robust content management system that facilitates the creation of customizable websites and web applications [cloudways.com](https://www.cloudways.com/blog/using-craft-cms-template/).
+This is a Craft CMS website designed to provide comprehensive information about steel roofing solutions. The website is built using the Craft CMS platform, a flexible and robust content management system that facilitates the creation of customizable websites and web application.
 
 Features
 --------
