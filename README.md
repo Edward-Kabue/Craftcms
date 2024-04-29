@@ -11,6 +11,8 @@ Features
 -   Category Group: The blog posts are categorized for easy navigation. The categories are defined in the settings menu.
 -   Redactor Plugin: This plugin provides a robust editing experience for creating blog posts.
 
+## Screenshots
+![About_us](web/sitecon.png)
 Installation
 ------------
 
