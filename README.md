@@ -26,8 +26,3 @@ Usage
 -   To add a new blog post, navigate to the "Entries" menu and select "New Entry" followed by "Blog".
 -   To edit the blog post, click on the "Edit" button in the control panel.
 -   To preview your changes, click the "Preview" button in the control panel.
-
-Contributing
-------------
-
-Contributions are welcome. Please feel free to submit a pull request.
