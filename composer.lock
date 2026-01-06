@@ -2162,7 +2162,7 @@
             "time": "2022-08-09T13:29:29+00:00"
         },
         {
-            "name": "justinrainbow/json-schema",
+
             "version": "6.6.4",
             "source": {
                 "type": "git",
@@ -2173,6 +2173,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/jsonrainbow/json-schema/zipball/2eeb75d21cf73211335888e7f5e6fd7440723ec7",
                 "reference": "2eeb75d21cf73211335888e7f5e6fd7440723ec7",
+
                 "shasum": ""
             },
             "require": {
@@ -2232,9 +2233,11 @@
             ],
             "support": {
                 "issues": "https://github.com/jsonrainbow/json-schema/issues",
+
                 "source": "https://github.com/jsonrainbow/json-schema/tree/6.6.4"
             },
             "time": "2025-12-19T15:01:32+00:00"
+
         },
         {
             "name": "marc-mabe/php-enum",
